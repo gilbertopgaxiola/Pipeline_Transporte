@@ -1,0 +1,201 @@
+id_paquete,fecha,origen,destino,peso,total_venta
+PQ00001,2026-09-26 04:47,Bucerías,Zapopan,24.02,507.0
+PQ00002,2026-09-13 01:36,Guadalajara,Nuevo Vallarta,22.2,457.95
+PQ00003,2026-09-08 05:11,Bucerías,Tepic,37.92,730.28
+PQ00004,2026-09-01 13:34,Nuevo Vallarta,Guadalajara,29.31,411.51
+PQ00005,2026-09-09 00:42,Tepic,Nuevo Vallarta,4.29,78.9
+PQ00006,2026-09-14 12:04,Puerto Vallarta,Tepic,3.22,47.96
+PQ00007,2026-09-20 13:51,Bucerías,Tepic,36.95,481.27
+PQ00008,2026-09-22 18:04,Tepic,Bucerías,4.87,90.0
+PQ00009,2026-09-25 03:28,Zapopan,Guadalajara,33.79,413.29
+PQ00010,2026-09-02 17:44,Tepic,Nuevo Vallarta,25.51,306.18
+PQ00011,2026-09-15 18:52,Guadalajara,Bucerías,40.16,775.5
+PQ00012,2026-09-17 13:07,Bucerías,Tepic,16.99,215.87
+PQ00013,2026-09-17 02:46,Puerto Vallarta,Nuevo Vallarta,25.65,514.46
+PQ00014,2026-09-22 23:14,Tepic,Zapopan,6.02,131.66
+PQ00015,2026-09-17 13:42,Puerto Vallarta,Guadalajara,16.63,336.55
+PQ00016,2026-09-26 08:09,Zapopan,Bucerías,17.45,233.52
+PQ00017,2026-09-07 19:38,Puerto Vallarta,Nuevo Vallarta,37.16,804.61
+PQ00018,2026-09-13 08:16,Tepic,Guadalajara,27.88,402.53
+PQ00019,2026-09-23 04:29,Tepic,Puerto Vallarta,37.28,539.72
+PQ00020,2026-09-21 02:53,Zapopan,Guadalajara,3.05,61.71
+PQ00021,2026-09-06 23:33,Bucerías,Nuevo Vallarta,34.97,624.44
+PQ00022,2026-09-25 11:25,Bucerías,Nuevo Vallarta,6.92,127.91
+PQ00023,2026-09-27 20:33,Nuevo Vallarta,Guadalajara,42.15,965.43
+PQ00024,2026-09-09 14:27,Tepic,Bucerías,31.44,448.25
+PQ00025,2026-09-19 19:21,Puerto Vallarta,Guadalajara,29.93,595.01
+PQ00026,2026-09-19 16:09,Zapopan,Bucerías,19.42,386.79
+PQ00027,2026-09-14 06:45,Bucerías,Puerto Vallarta,18.51,304.62
+PQ00028,2026-09-07 11:23,Zapopan,Nuevo Vallarta,7.08,140.42
+PQ00029,2026-09-15 12:15,Bucerías,Nuevo Vallarta,38.1,728.53
+PQ00030,2026-09-11 13:13,Zapopan,Bucerías,9.84,197.92
+PQ00031,2026-09-07 10:34,Zapopan,Tepic,44.18,903.53
+PQ00032,2026-09-27 08:02,Puerto Vallarta,Bucerías,31.55,510.82
+PQ00033,2026-09-28 07:06,Guadalajara,Tepic,22.14,429.92
+PQ00034,2026-09-26 22:02,Bucerías,Tepic,13.58,312.54
+PQ00035,2026-09-06 04:02,Guadalajara,Bucerías,2.11,29.31
+PQ00036,2026-09-10 16:54,Bucerías,Guadalajara,12.75,283.2
+PQ00037,2026-09-08 02:36,Zapopan,Tepic,37.93,795.69
+PQ00038,2026-09-27 06:30,Zapopan,Puerto Vallarta,2.42,54.65
+PQ00039,2026-09-28 06:38,Guadalajara,Bucerías,39.05,845.49
+PQ00040,2026-09-12 12:49,Nuevo Vallarta,Tepic,23.48,524.99
+PQ00041,2026-09-03 06:44,Bucerías,Zapopan,41.77,711.69
+PQ00042,2026-09-27 19:16,Bucerías,Zapopan,3.37,73.02
+PQ00043,2026-09-22 12:12,Puerto Vallarta,Bucerías,37.52,894.83
+PQ00044,2026-09-29 13:31,Bucerías,Zapopan,25.05,497.09
+PQ00045,2026-09-15 06:44,Bucerías,Puerto Vallarta,20.75,514.29
+PQ00046,2026-09-09 10:29,Guadalajara,Zapopan,33.34,451.81
+PQ00047,2026-09-14 13:11,Guadalajara,Nuevo Vallarta,25.49,348.98
+PQ00048,2026-09-01 06:34,Nuevo Vallarta,Zapopan,15.54,329.85
+PQ00049,2026-09-08 11:04,Puerto Vallarta,Guadalajara,41.86,827.13
+PQ00050,2026-09-15 14:52,Bucerías,Nuevo Vallarta,22.58,439.06
+PQ00051,2026-09-16 10:19,Zapopan,Guadalajara,24.12,589.51
+PQ00052,2026-09-25 12:31,Nuevo Vallarta,Guadalajara,8.01,152.67
+PQ00053,2026-09-17 23:05,Tepic,Guadalajara,10.73,158.52
+PQ00054,2026-09-18 12:21,Zapopan,Tepic,13.92,339.01
+PQ00055,2026-09-24 01:14,Nuevo Vallarta,Bucerías,44.85,1018.45
+PQ00056,2026-09-06 13:39,Bucerías,Guadalajara,30.43,541.46
+PQ00057,2026-09-12 20:04,Bucerías,Nuevo Vallarta,43.19,901.51
+PQ00058,2026-09-06 12:05,Zapopan,Nuevo Vallarta,17.98,342.04
+PQ00059,2026-09-26 02:11,Zapopan,Guadalajara,37.17,627.22
+PQ00060,2026-09-24 15:10,Nuevo Vallarta,Tepic,2.93,69.38
+PQ00061,2026-09-25 22:43,Puerto Vallarta,Tepic,4.62,61.2
+PQ00062,2026-09-01 08:32,Nuevo Vallarta,Bucerías,28.59,421.42
+PQ00063,2026-09-21 14:14,Bucerías,Puerto Vallarta,37.77,554.18
+PQ00064,2026-09-04 12:01,Bucerías,Tepic,33.86,474.0
+PQ00065,2026-09-02 20:08,Tepic,Zapopan,4.85,61.62
+PQ00066,2026-09-04 10:04,Zapopan,Bucerías,26.3,393.43
+PQ00067,2026-09-19 20:05,Zapopan,Nuevo Vallarta,20.85,359.83
+PQ00068,2026-09-19 21:48,Zapopan,Guadalajara,30.63,580.53
+PQ00069,2026-09-04 01:40,Bucerías,Nuevo Vallarta,34.26,671.94
+PQ00070,2026-09-18 08:45,Bucerías,Guadalajara,41.83,559.68
+PQ00071,2026-09-05 04:47,Bucerías,Zapopan,13.39,321.99
+PQ00072,2026-09-02 11:54,Tepic,Nuevo Vallarta,21.86,413.92
+PQ00073,2026-09-27 11:48,Puerto Vallarta,Nuevo Vallarta,13.98,282.99
+PQ00074,2026-09-01 12:59,Zapopan,Tepic,25.36,487.32
+PQ00075,2026-09-01 05:51,Guadalajara,Puerto Vallarta,26.2,448.62
+PQ00076,2026-09-15 18:59,Nuevo Vallarta,Guadalajara,10.24,221.58
+PQ00077,2026-09-11 06:41,Bucerías,Zapopan,19.16,390.81
+PQ00078,2026-09-08 19:31,Nuevo Vallarta,Puerto Vallarta,9.1,182.18
+PQ00079,2026-09-06 13:32,Zapopan,Puerto Vallarta,8.98,201.11
+PQ00080,2026-09-23 09:24,Guadalajara,Bucerías,29.37,380.37
+PQ00081,2026-09-13 04:04,Bucerías,Guadalajara,5.32,114.02
+PQ00082,2026-09-18 08:05,Tepic,Zapopan,6.64,136.26
+PQ00083,2026-09-04 09:19,Guadalajara,Tepic,40.61,655.09
+PQ00084,2026-09-15 20:08,Tepic,Zapopan,31.51,440.55
+PQ00085,2026-09-16 08:33,Nuevo Vallarta,Zapopan,43.18,612.82
+PQ00086,2026-09-11 18:05,Zapopan,Puerto Vallarta,32.34,657.5
+PQ00087,2026-09-07 12:28,Zapopan,Tepic,30.9,503.99
+PQ00088,2026-09-22 14:52,Tepic,Nuevo Vallarta,16.78,268.0
+PQ00089,2026-09-09 12:47,Nuevo Vallarta,Guadalajara,29.4,384.13
+PQ00090,2026-09-27 03:32,Zapopan,Puerto Vallarta,9.64,207.61
+PQ00091,2026-09-04 15:50,Bucerías,Guadalajara,40.25,927.55
+PQ00092,2026-09-29 05:57,Bucerías,Guadalajara,26.47,582.33
+PQ00093,2026-09-27 18:39,Puerto Vallarta,Guadalajara,12.47,294.56
+PQ00094,2026-09-08 05:10,Nuevo Vallarta,Tepic,17.1,254.84
+PQ00095,2026-09-07 11:58,Nuevo Vallarta,Zapopan,21.45,399.73
+PQ00096,2026-09-25 09:04,Tepic,Zapopan,1.47,22.21
+PQ00097,2026-09-25 23:00,Nuevo Vallarta,Puerto Vallarta,7.18,101.02
+PQ00098,2026-09-08 02:20,Nuevo Vallarta,Bucerías,33.38,610.37
+PQ00099,2026-09-11 14:56,Zapopan,Guadalajara,34.5,517.94
+PQ00100,2026-09-12 08:39,Zapopan,Tepic,2.88,42.3
+PQ00101,2026-09-23 19:12,Zapopan,Nuevo Vallarta,41.39,971.02
+PQ00102,2026-09-06 00:15,Guadalajara,Tepic,31.96,600.14
+PQ00103,2026-09-29 02:09,Zapopan,Tepic,24.95,355.79
+PQ00104,2026-09-18 17:36,Bucerías,Tepic,26.86,635.96
+PQ00105,2026-09-13 05:07,Guadalajara,Bucerías,17.56,417.83
+PQ00106,2026-09-18 03:09,Nuevo Vallarta,Tepic,36.96,609.3
+PQ00107,2026-09-01 07:41,Tepic,Bucerías,23.08,318.66
+PQ00108,2026-09-04 17:48,Puerto Vallarta,Zapopan,23.64,369.98
+PQ00109,2026-09-08 15:20,Puerto Vallarta,Zapopan,16.94,361.24
+PQ00110,2026-09-21 03:03,Guadalajara,Zapopan,36.69,783.82
+PQ00111,2026-09-24 06:06,Tepic,Nuevo Vallarta,10.27,144.77
+PQ00112,2026-09-12 19:53,Tepic,Guadalajara,2.9,56.42
+PQ00113,2026-09-25 21:16,Puerto Vallarta,Zapopan,2.72,52.88
+PQ00114,2026-09-13 12:53,Guadalajara,Zapopan,41.59,778.41
+PQ00115,2026-09-28 08:38,Tepic,Bucerías,29.06,680.6
+PQ00116,2026-09-05 03:54,Bucerías,Zapopan,10.53,209.39
+PQ00117,2026-09-09 06:43,Tepic,Nuevo Vallarta,10.65,184.67
+PQ00118,2026-09-09 19:54,Puerto Vallarta,Bucerías,28.42,529.76
+PQ00119,2026-09-23 00:19,Puerto Vallarta,Tepic,27.25,351.39
+PQ00120,2026-09-07 10:02,Tepic,Nuevo Vallarta,5.78,84.56
+PQ00121,2026-09-08 06:15,Nuevo Vallarta,Tepic,27.64,395.43
+PQ00122,2026-09-02 21:28,Nuevo Vallarta,Bucerías,39.62,749.16
+PQ00123,2026-09-24 09:51,Guadalajara,Puerto Vallarta,30.01,712.01
+PQ00124,2026-09-21 22:43,Nuevo Vallarta,Guadalajara,23.97,403.05
+PQ00125,2026-09-21 19:46,Guadalajara,Bucerías,11.1,248.97
+PQ00126,2026-09-29 14:17,Tepic,Zapopan,36.4,866.4
+PQ00127,2026-09-05 17:50,Bucerías,Nuevo Vallarta,19.72,301.89
+PQ00128,2026-09-14 18:01,Puerto Vallarta,Guadalajara,27.32,520.95
+PQ00129,2026-09-01 06:22,Zapopan,Puerto Vallarta,32.2,716.85
+PQ00130,2026-09-06 17:16,Nuevo Vallarta,Bucerías,23.87,402.82
+PQ00131,2026-09-20 20:20,Puerto Vallarta,Tepic,16.94,237.37
+PQ00132,2026-09-13 07:30,Bucerías,Nuevo Vallarta,12.5,237.12
+PQ00133,2026-09-14 09:03,Nuevo Vallarta,Zapopan,44.64,766.33
+PQ00134,2026-09-27 19:14,Puerto Vallarta,Nuevo Vallarta,35.49,648.48
+PQ00135,2026-09-27 22:31,Zapopan,Bucerías,22.29,553.92
+PQ00136,2026-09-20 07:51,Nuevo Vallarta,Zapopan,33.37,771.35
+PQ00137,2026-09-12 03:42,Bucerías,Guadalajara,20.65,435.53
+PQ00138,2026-09-11 09:51,Puerto Vallarta,Guadalajara,23.37,519.26
+PQ00139,2026-09-03 12:38,Nuevo Vallarta,Bucerías,8.07,198.03
+PQ00140,2026-09-08 01:19,Guadalajara,Puerto Vallarta,21.75,430.72
+PQ00141,2026-09-13 18:31,Guadalajara,Puerto Vallarta,10.76,140.32
+PQ00142,2026-09-20 10:47,Guadalajara,Nuevo Vallarta,28.01,525.83
+PQ00143,2026-09-03 18:56,Bucerías,Nuevo Vallarta,42.61,965.67
+PQ00144,2026-09-22 07:26,Bucerías,Tepic,1.47,33.89
+PQ00145,2026-09-10 10:53,Nuevo Vallarta,Zapopan,2.48,49.09
+PQ00146,2026-09-09 05:27,Nuevo Vallarta,Puerto Vallarta,30.66,511.31
+PQ00147,2026-09-08 15:26,Bucerías,Guadalajara,4.82,75.13
+PQ00148,2026-09-20 04:22,Tepic,Zapopan,18.84,275.14
+PQ00149,2026-09-05 09:03,Guadalajara,Puerto Vallarta,25.18,539.85
+PQ00150,2026-09-17 21:33,Nuevo Vallarta,Bucerías,16.29,368.18
+PQ00151,2026-09-10 10:38,Puerto Vallarta,Bucerías,21.01,362.45
+PQ00152,2026-09-09 11:55,Guadalajara,Tepic,18.91,253.09
+PQ00153,2026-09-15 06:49,Guadalajara,Bucerías,15.96,215.8
+PQ00154,2026-09-27 02:42,Nuevo Vallarta,Zapopan,36.78,716.24
+PQ00155,2026-09-19 07:19,Bucerías,Tepic,25.78,567.41
+PQ00156,2026-09-23 08:46,Zapopan,Nuevo Vallarta,40.45,938.69
+PQ00157,2026-09-13 12:22,Tepic,Guadalajara,3.97,80.34
+PQ00158,2026-09-16 07:51,Puerto Vallarta,Zapopan,19.15,317.7
+PQ00159,2026-09-13 18:49,Nuevo Vallarta,Guadalajara,11.92,157.45
+PQ00160,2026-09-04 16:34,Bucerías,Zapopan,25.4,363.74
+PQ00161,2026-09-11 14:38,Zapopan,Tepic,40.35,625.34
+PQ00162,2026-09-25 05:22,Bucerías,Puerto Vallarta,33.43,503.23
+PQ00163,2026-09-11 00:54,Puerto Vallarta,Tepic,11.09,253.45
+PQ00164,2026-09-08 13:44,Nuevo Vallarta,Zapopan,35.27,478.21
+PQ00165,2026-09-01 07:43,Guadalajara,Nuevo Vallarta,34.63,659.33
+PQ00166,2026-09-19 00:28,Guadalajara,Nuevo Vallarta,28.31,520.92
+PQ00167,2026-09-24 19:49,Nuevo Vallarta,Zapopan,9.05,198.52
+PQ00168,2026-09-20 07:33,Nuevo Vallarta,Zapopan,10.77,209.98
+PQ00169,2026-09-21 13:02,Guadalajara,Bucerías,22.05,419.61
+PQ00170,2026-09-20 02:42,Nuevo Vallarta,Zapopan,38.86,858.29
+PQ00171,2026-09-26 03:45,Tepic,Guadalajara,21.24,445.18
+PQ00172,2026-09-19 10:03,Guadalajara,Zapopan,26.56,431.09
+PQ00173,2026-09-10 02:02,Nuevo Vallarta,Zapopan,25.14,379.18
+PQ00174,2026-09-17 15:44,Tepic,Bucerías,17.1,316.08
+PQ00175,2026-09-19 01:46,Puerto Vallarta,Nuevo Vallarta,17.06,293.56
+PQ00176,2026-09-28 17:44,Tepic,Puerto Vallarta,6.77,131.92
+PQ00177,2026-09-14 02:30,Puerto Vallarta,Guadalajara,36.38,699.2
+PQ00178,2026-09-08 01:55,Tepic,Puerto Vallarta,36.2,781.96
+PQ00179,2026-09-09 13:45,Tepic,Guadalajara,19.55,268.78
+PQ00180,2026-09-26 22:08,Bucerías,Nuevo Vallarta,32.7,726.25
+PQ00181,2026-09-28 06:56,Zapopan,Tepic,38.77,489.29
+PQ00182,2026-09-03 21:56,Guadalajara,Zapopan,10.48,160.4
+PQ00183,2026-09-22 20:07,Bucerías,Guadalajara,33.76,519.13
+PQ00184,2026-09-28 01:31,Zapopan,Bucerías,42.0,644.71
+PQ00185,2026-09-06 21:15,Guadalajara,Nuevo Vallarta,16.45,342.73
+PQ00186,2026-09-29 00:05,Nuevo Vallarta,Puerto Vallarta,26.34,538.36
+PQ00187,2026-09-18 05:43,Puerto Vallarta,Tepic,15.3,285.13
+PQ00188,2026-09-04 19:21,Bucerías,Tepic,17.77,279.43
+PQ00189,2026-09-09 03:14,Bucerías,Puerto Vallarta,29.19,702.64
+PQ00190,2026-09-28 18:00,Tepic,Bucerías,18.81,447.53
+PQ00191,2026-09-17 16:21,Guadalajara,Zapopan,11.04,177.96
+PQ00192,2026-09-20 04:44,Zapopan,Tepic,12.93,229.94
+PQ00193,2026-09-26 06:56,Zapopan,Bucerías,43.48,755.76
+PQ00194,2026-09-07 01:40,Puerto Vallarta,Guadalajara,33.02,680.42
+PQ00195,2026-09-11 05:20,Bucerías,Guadalajara,8.34,111.25
+PQ00196,2026-09-27 14:58,Guadalajara,Nuevo Vallarta,3.37,74.21
+PQ00197,2026-09-06 01:05,Nuevo Vallarta,Guadalajara,12.55,175.93
+PQ00198,2026-09-16 00:26,Bucerías,Tepic,11.09,239.42
+PQ00199,2026-09-07 08:56,Tepic,Puerto Vallarta,24.18,343.79
+PQ00200,2026-09-16 18:53,Guadalajara,Tepic,39.03,705.41

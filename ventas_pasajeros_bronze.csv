@@ -1,0 +1,501 @@
+id_pasajero,nombre,fecha_nacimiento,genero,origen,destino,fecha_salida,total_venta
+P00001,Valeria Hernandez Lopez,1975-03-10,M,Bucerías,Guadalajara,2026-09-02 05:08,791.88
+P00002,Elena Perez Garcia,1962-01-10,M,Bucerías,Nuevo Vallarta,2026-09-05 05:17,481.18
+P00003,Jorge Lopez Flores,2004-03-22,F,Nuevo Vallarta,Bucerías,2026-09-02 06:54,482.26
+P00004,Juan Rodriguez Flores,1988-10-04,F,Nuevo Vallarta,Zapopan,2026-09-01 07:34,516.72
+P00005,Maria Perez Martinez,1984-06-05,F,Puerto Vallarta,Tepic,2026-09-05 23:05,712.24
+P00006,Maria Perez Martinez,1997-07-26,F,Guadalajara,Nuevo Vallarta,2026-09-27 00:45,847.64
+P00007,Ana Flores Martinez,1963-02-12,M,Nuevo Vallarta,Zapopan,2026-09-29 00:39,813.84
+P00008,Miguel Hernandez Sanchez,2003-04-05,F,Guadalajara,Zapopan,2026-09-05 21:40,447.59
+P00009,Valeria Gaxiola Gaxiola,1964-11-09,M,Zapopan,Puerto Vallarta,2026-09-13 23:03,670.48
+P00010,Miguel Hernandez Gaxiola,2006-10-30,M,Puerto Vallarta,Zapopan,2026-09-23 10:34,760.77
+P00011,Juan Gonzalez Perez,1978-03-21,M,Guadalajara,Zapopan,2026-09-02 13:23,476.59
+P00012,Diego Sanchez Perez,2003-09-30,F,Nuevo Vallarta,Zapopan,2026-09-11 07:43,435.72
+P00013,Jorge Hernandez Flores,1999-10-12,F,Puerto Vallarta,Zapopan,2026-09-28 06:02,888.69
+P00014,Jose Ramirez Sanchez,1966-03-09,M,Tepic,Zapopan,2026-09-11 15:31,866.66
+P00015,Elena Martinez Perez,1985-12-20,F,Puerto Vallarta,Zapopan,2026-09-21 11:51,667.47
+P00016,Diego Ramirez Hernandez,2003-08-14,F,Nuevo Vallarta,Guadalajara,2026-09-06 13:27,416.93
+P00017,Carlos Flores Flores,1977-12-03,M,Tepic,Puerto Vallarta,2026-09-23 00:37,654.61
+P00018,Elena Lopez Rodriguez,1985-06-11,M,Guadalajara,Tepic,2026-09-25 15:28,673.63
+P00019,Sofia Garcia Martinez,1984-09-12,F,Nuevo Vallarta,Guadalajara,2026-09-16 17:40,493.67
+P00020,Maria Flores Sanchez,1964-09-16,M,Puerto Vallarta,Bucerías,2026-09-04 19:45,427.03
+P00021,Luis Ramirez Torres,1988-10-17,M,Tepic,Bucerías,2026-09-09 00:23,907.35
+P00022,Miguel Gaxiola Gaxiola,1985-05-30,F,Bucerías,Puerto Vallarta,2026-09-16 03:10,889.77
+P00023,Ana Martinez Gonzalez,1961-06-06,M,Tepic,Guadalajara,2026-09-13 00:49,703.06
+P00024,Ana Martinez Garcia,1982-06-26,M,Guadalajara,Puerto Vallarta,2026-09-03 20:35,658.49
+P00025,Jorge Rodriguez Flores,1998-11-10,F,Zapopan,Nuevo Vallarta,2026-09-11 09:36,495.8
+P00026,Maria Martinez Gaxiola,1989-05-01,F,Tepic,Nuevo Vallarta,2026-09-10 05:50,604.15
+P00027,Carlos Perez Flores,1983-02-02,M,Tepic,Guadalajara,2026-09-05 18:39,499.19
+P00028,Jose Perez Rodriguez,1978-12-15,F,Puerto Vallarta,Bucerías,2026-09-22 18:40,499.88
+P00029,Maria Garcia Gaxiola,1996-10-14,M,Guadalajara,Nuevo Vallarta,2026-09-27 17:10,931.4
+P00030,Sofia Sanchez Lopez,1987-04-16,M,Puerto Vallarta,Zapopan,2026-09-20 17:30,448.78
+P00031,Juan Sanchez Hernandez,1988-10-13,F,Guadalajara,Nuevo Vallarta,2026-09-13 20:59,442.88
+P00032,Elena Flores Ramirez,1964-02-24,F,Zapopan,Puerto Vallarta,2026-09-03 20:08,384.3
+P00033,Alejandra Ramirez Rodriguez,1963-11-14,M,Nuevo Vallarta,Tepic,2026-09-25 09:51,860.81
+P00034,Diego Lopez Perez,1968-02-27,M,Guadalajara,Bucerías,2026-09-04 07:10,697.35
+P00035,Miguel Gaxiola Torres,1998-06-18,F,Guadalajara,Bucerías,2026-09-04 23:31,910.82
+P00036,Luis Perez Rodriguez,2005-09-15,F,Puerto Vallarta,Tepic,2026-09-12 14:05,624.33
+P00037,Elena Torres Martinez,1964-12-25,M,Guadalajara,Puerto Vallarta,2026-09-23 05:56,653.53
+P00038,Ana Gonzalez Hernandez,1970-09-25,F,Puerto Vallarta,Tepic,2026-09-04 08:08,850.25
+P00039,Carlos Gaxiola Ramirez,1980-05-16,M,Bucerías,Zapopan,2026-09-26 16:15,913.36
+P00040,Maria Flores Ramirez,1970-07-30,F,Puerto Vallarta,Tepic,2026-09-06 14:29,519.05
+P00041,Diego Gaxiola Hernandez,1994-05-24,F,Puerto Vallarta,Tepic,2026-09-10 21:12,500.67
+P00042,Alejandra Hernandez Garcia,1960-03-29,F,Guadalajara,Puerto Vallarta,2026-09-21 13:30,812.67
+P00043,Valeria Sanchez Ramirez,1989-02-07,M,Bucerías,Zapopan,2026-09-08 20:15,417.12
+P00044,Carlos Gonzalez Torres,1997-08-07,M,Bucerías,Puerto Vallarta,2026-09-27 11:39,607.87
+P00045,Juan Garcia Gonzalez,1974-04-18,M,Guadalajara,Tepic,2026-09-18 16:50,750.16
+P00046,Elena Flores Rodriguez,1976-02-10,M,Zapopan,Bucerías,2026-09-20 17:27,935.72
+P00047,Jose Flores Gonzalez,1988-01-07,M,Puerto Vallarta,Nuevo Vallarta,2026-09-02 04:52,510.08
+P00048,Alejandra Garcia Sanchez,1975-02-19,M,Bucerías,Guadalajara,2026-09-19 13:41,839.95
+P00049,Alejandra Lopez Lopez,1961-08-11,M,Tepic,Zapopan,2026-09-15 19:34,589.08
+P00050,Laura Gaxiola Ramirez,1987-03-14,F,Zapopan,Guadalajara,2026-09-14 13:12,913.54
+P00051,Elena Hernandez Garcia,1967-05-18,F,Guadalajara,Tepic,2026-09-09 16:02,557.41
+P00052,Maria Perez Torres,1972-12-07,F,Zapopan,Nuevo Vallarta,2026-09-25 19:51,376.63
+P00053,Juan Ramirez Gaxiola,2005-08-20,M,Tepic,Guadalajara,2026-09-26 05:45,568.53
+P00054,Diego Martinez Flores,1980-06-08,F,Guadalajara,Tepic,2026-09-16 05:44,750.14
+P00055,Jorge Rodriguez Lopez,1988-08-11,F,Zapopan,Nuevo Vallarta,2026-09-15 08:27,756.39
+P00056,Luis Perez Ramirez,1960-01-11,F,Puerto Vallarta,Bucerías,2026-09-28 15:03,522.15
+P00057,Sofia Sanchez Sanchez,2005-12-22,M,Tepic,Bucerías,2026-09-16 15:26,656.7
+P00058,Luis Ramirez Gaxiola,2003-01-26,F,Bucerías,Puerto Vallarta,2026-09-05 02:47,406.03
+P00059,Juan Lopez Rodriguez,1961-08-30,M,Puerto Vallarta,Tepic,2026-09-11 21:43,496.91
+P00060,Sofia Perez Gaxiola,1999-03-05,M,Tepic,Bucerías,2026-09-04 12:51,781.01
+P00061,Ana Rodriguez Gaxiola,2006-10-16,M,Tepic,Nuevo Vallarta,2026-09-20 09:37,885.6
+P00062,Jose Flores Ramirez,1991-08-12,M,Guadalajara,Nuevo Vallarta,2026-09-11 14:58,684.44
+P00063,Juan Sanchez Gaxiola,1996-02-22,F,Guadalajara,Nuevo Vallarta,2026-09-07 11:21,920.02
+P00064,Miguel Ramirez Sanchez,1970-10-30,F,Tepic,Bucerías,2026-09-25 12:06,620.04
+P00065,Sofia Gaxiola Lopez,1978-09-08,F,Puerto Vallarta,Tepic,2026-09-26 07:21,396.49
+P00066,Laura Gonzalez Ramirez,1965-06-25,M,Zapopan,Puerto Vallarta,2026-09-14 04:34,440.5
+P00067,Maria Perez Perez,1982-07-08,F,Tepic,Puerto Vallarta,2026-09-11 09:16,599.46
+P00068,Juan Torres Flores,1961-04-30,F,Puerto Vallarta,Nuevo Vallarta,2026-09-19 21:46,636.19
+P00069,Alejandra Perez Ramirez,1997-03-01,M,Zapopan,Tepic,2026-09-19 22:22,642.94
+P00070,Carlos Perez Gonzalez,2005-07-07,F,Zapopan,Nuevo Vallarta,2026-09-24 13:48,784.51
+P00071,Carlos Perez Torres,1998-05-29,M,Tepic,Puerto Vallarta,2026-09-26 22:17,400.37
+P00072,Jose Garcia Hernandez,1985-10-18,F,Tepic,Puerto Vallarta,2026-09-23 09:55,477.0
+P00073,Luis Perez Hernandez,1965-07-28,F,Zapopan,Tepic,2026-09-19 09:42,361.63
+P00074,Ana Gaxiola Martinez,2004-05-08,M,Nuevo Vallarta,Guadalajara,2026-09-17 23:44,802.54
+P00075,Elena Rodriguez Lopez,1968-08-03,F,Puerto Vallarta,Zapopan,2026-09-01 23:44,751.68
+P00076,Valeria Hernandez Gonzalez,1971-06-02,M,Nuevo Vallarta,Puerto Vallarta,2026-09-23 13:48,816.68
+P00077,Elena Garcia Hernandez,1999-03-08,F,Puerto Vallarta,Tepic,2026-09-06 05:56,587.99
+P00078,Elena Flores Gaxiola,1976-07-11,M,Bucerías,Puerto Vallarta,2026-09-04 16:32,768.32
+P00079,Juan Torres Garcia,1983-08-17,F,Zapopan,Bucerías,2026-09-06 21:02,746.91
+P00080,Carlos Perez Sanchez,1967-03-08,F,Guadalajara,Bucerías,2026-09-17 13:33,926.47
+P00081,Miguel Rodriguez Flores,1995-07-04,F,Bucerías,Tepic,2026-09-08 10:14,719.55
+P00082,Miguel Flores Torres,1978-04-07,F,Nuevo Vallarta,Tepic,2026-09-23 13:37,861.03
+P00083,Ana Sanchez Torres,2001-07-13,F,Guadalajara,Tepic,2026-09-22 21:13,551.84
+P00084,Sofia Lopez Gonzalez,1977-07-31,F,Tepic,Zapopan,2026-09-09 19:51,517.8
+P00085,Carlos Ramirez Lopez,1965-10-28,M,Nuevo Vallarta,Zapopan,2026-09-27 23:32,782.04
+P00086,Valeria Sanchez Gaxiola,1993-05-26,F,Tepic,Bucerías,2026-09-12 15:59,825.76
+P00087,Miguel Flores Lopez,1980-11-01,F,Guadalajara,Tepic,2026-09-11 18:10,633.96
+P00088,Valeria Ramirez Gonzalez,1983-12-10,F,Nuevo Vallarta,Zapopan,2026-09-21 15:44,512.55
+P00089,Valeria Lopez Gonzalez,1968-02-19,M,Zapopan,Puerto Vallarta,2026-09-06 20:34,464.92
+P00090,Valeria Torres Ramirez,2000-08-11,F,Bucerías,Tepic,2026-09-14 10:08,938.31
+P00091,Laura Rodriguez Hernandez,1960-12-17,M,Puerto Vallarta,Tepic,2026-09-12 01:02,514.59
+P00092,Valeria Rodriguez Gaxiola,1993-05-27,M,Guadalajara,Bucerías,2026-09-15 04:21,873.63
+P00093,Sofia Sanchez Gonzalez,1972-07-18,M,Nuevo Vallarta,Zapopan,2026-09-23 18:53,501.49
+P00094,Miguel Sanchez Martinez,1999-04-07,M,Tepic,Guadalajara,2026-09-04 04:07,441.04
+P00095,Ana Martinez Ramirez,1988-04-27,M,Nuevo Vallarta,Zapopan,2026-09-05 03:14,815.42
+P00096,Luis Torres Perez,1980-10-12,M,Tepic,Nuevo Vallarta,2026-09-22 11:48,715.78
+P00097,Diego Lopez Hernandez,2004-12-10,M,Bucerías,Guadalajara,2026-09-11 02:05,444.23
+P00098,Jose Garcia Perez,1990-08-28,F,Puerto Vallarta,Bucerías,2026-09-04 15:27,524.76
+P00099,Valeria Sanchez Martinez,2006-10-11,M,Puerto Vallarta,Tepic,2026-09-14 17:23,904.35
+P00100,Miguel Martinez Ramirez,1975-04-19,M,Bucerías,Nuevo Vallarta,2026-09-10 14:28,895.05
+P00101,Jose Hernandez Torres,1998-09-25,F,Puerto Vallarta,Guadalajara,2026-09-03 21:29,613.49
+P00102,Luis Ramirez Ramirez,1993-08-08,F,Tepic,Zapopan,2026-09-20 12:57,398.27
+P00103,Elena Hernandez Garcia,1966-03-19,M,Guadalajara,Nuevo Vallarta,2026-09-16 15:31,927.15
+P00104,Juan Gaxiola Hernandez,1999-03-19,M,Nuevo Vallarta,Bucerías,2026-09-02 00:10,807.87
+P00105,Diego Sanchez Hernandez,1972-05-07,F,Puerto Vallarta,Nuevo Vallarta,2026-09-26 04:38,730.87
+P00106,Laura Perez Gonzalez,1981-11-05,M,Tepic,Guadalajara,2026-09-23 19:36,864.64
+P00107,Luis Gaxiola Perez,1997-06-07,M,Zapopan,Nuevo Vallarta,2026-09-25 01:15,622.9
+P00108,Maria Perez Ramirez,1960-01-29,F,Zapopan,Tepic,2026-09-16 16:38,597.95
+P00109,Elena Sanchez Gaxiola,1990-01-29,M,Puerto Vallarta,Bucerías,2026-09-18 13:30,472.13
+P00110,Sofia Flores Sanchez,1968-04-06,M,Nuevo Vallarta,Puerto Vallarta,2026-09-14 23:34,933.89
+P00111,Luis Ramirez Garcia,1997-07-31,F,Nuevo Vallarta,Puerto Vallarta,2026-09-08 16:31,405.93
+P00112,Diego Rodriguez Sanchez,1979-11-11,F,Guadalajara,Nuevo Vallarta,2026-09-06 16:51,599.29
+P00113,Sofia Ramirez Rodriguez,1986-02-07,M,Tepic,Nuevo Vallarta,2026-09-12 19:58,903.12
+P00114,Luis Perez Gonzalez,1994-07-20,F,Nuevo Vallarta,Puerto Vallarta,2026-09-04 09:20,842.33
+P00115,Elena Gaxiola Sanchez,1970-02-10,F,Zapopan,Tepic,2026-09-29 11:49,673.15
+P00116,Juan Ramirez Perez,1990-12-26,F,Zapopan,Tepic,2026-09-27 19:01,871.76
+P00117,Miguel Lopez Perez,1962-12-20,F,Bucerías,Puerto Vallarta,2026-09-28 18:11,796.82
+P00118,Diego Gaxiola Rodriguez,1993-09-15,M,Bucerías,Tepic,2026-09-19 17:48,425.75
+P00119,Alejandra Sanchez Martinez,1995-10-16,F,Nuevo Vallarta,Zapopan,2026-09-05 20:55,359.21
+P00120,Maria Sanchez Hernandez,1983-01-14,F,Puerto Vallarta,Nuevo Vallarta,2026-09-08 11:50,739.9
+P00121,Laura Gaxiola Flores,1993-03-16,M,Zapopan,Bucerías,2026-09-19 10:44,720.48
+P00122,Valeria Martinez Perez,1966-09-12,M,Puerto Vallarta,Tepic,2026-09-12 01:02,616.21
+P00123,Carlos Gonzalez Garcia,1979-12-18,F,Bucerías,Zapopan,2026-09-02 09:43,574.9
+P00124,Miguel Torres Gaxiola,1972-04-02,M,Puerto Vallarta,Zapopan,2026-09-26 18:51,455.04
+P00125,Sofia Torres Rodriguez,1975-10-20,F,Nuevo Vallarta,Tepic,2026-09-12 16:35,732.74
+P00126,Juan Sanchez Hernandez,2006-02-10,M,Tepic,Zapopan,2026-09-01 10:56,394.32
+P00127,Diego Perez Flores,1977-01-07,F,Zapopan,Bucerías,2026-09-15 12:32,857.18
+P00128,Maria Lopez Perez,1998-12-02,F,Puerto Vallarta,Nuevo Vallarta,2026-09-24 10:58,694.89
+P00129,Alejandra Gaxiola Perez,1978-09-05,M,Bucerías,Zapopan,2026-09-02 01:33,689.56
+P00130,Alejandra Hernandez Lopez,2001-04-23,F,Bucerías,Guadalajara,2026-09-25 02:43,481.4
+P00131,Diego Flores Gaxiola,2006-05-01,M,Puerto Vallarta,Bucerías,2026-09-13 04:00,726.95
+P00132,Juan Sanchez Garcia,1999-06-10,F,Bucerías,Guadalajara,2026-09-15 23:55,789.42
+P00133,Valeria Perez Rodriguez,1973-08-30,M,Guadalajara,Tepic,2026-09-16 20:39,821.91
+P00134,Luis Rodriguez Hernandez,1992-10-15,F,Zapopan,Bucerías,2026-09-25 08:37,797.94
+P00135,Maria Rodriguez Lopez,2006-01-09,F,Zapopan,Guadalajara,2026-09-23 17:38,930.36
+P00136,Juan Perez Garcia,1977-12-30,M,Nuevo Vallarta,Zapopan,2026-09-05 09:12,622.87
+P00137,Miguel Gaxiola Gonzalez,1967-05-16,M,Bucerías,Zapopan,2026-09-29 09:03,632.89
+P00138,Elena Lopez Gaxiola,1964-04-20,F,Nuevo Vallarta,Bucerías,2026-09-16 22:09,895.63
+P00139,Jose Garcia Garcia,1980-09-17,F,Zapopan,Nuevo Vallarta,2026-09-06 15:56,419.67
+P00140,Miguel Sanchez Gonzalez,2005-08-17,F,Puerto Vallarta,Bucerías,2026-09-07 14:03,702.4
+P00141,Diego Martinez Sanchez,2001-11-23,F,Bucerías,Puerto Vallarta,2026-09-21 03:22,913.43
+P00142,Ana Sanchez Sanchez,1976-01-25,F,Zapopan,Guadalajara,2026-09-18 23:41,409.61
+P00143,Diego Gonzalez Garcia,1987-02-03,F,Bucerías,Zapopan,2026-09-27 10:20,463.89
+P00144,Diego Lopez Gaxiola,2003-07-08,M,Guadalajara,Nuevo Vallarta,2026-09-05 10:48,380.35
+P00145,Juan Torres Lopez,1964-09-01,M,Zapopan,Puerto Vallarta,2026-09-07 02:42,701.83
+P00146,Juan Torres Garcia,1978-11-13,M,Puerto Vallarta,Tepic,2026-09-08 03:54,942.52
+P00147,Maria Gaxiola Garcia,1968-12-19,M,Nuevo Vallarta,Zapopan,2026-09-09 11:18,564.95
+P00148,Carlos Rodriguez Hernandez,1963-07-26,M,Puerto Vallarta,Bucerías,2026-09-16 17:13,795.03
+P00149,Sofia Sanchez Gonzalez,1994-12-04,M,Nuevo Vallarta,Guadalajara,2026-09-04 02:03,621.2
+P00150,Valeria Gaxiola Ramirez,1980-07-11,F,Puerto Vallarta,Bucerías,2026-09-03 02:31,736.0
+P00151,Alejandra Perez Perez,2006-09-09,M,Guadalajara,Puerto Vallarta,2026-09-24 06:03,644.16
+P00152,Laura Torres Rodriguez,1964-06-20,M,Tepic,Guadalajara,2026-09-04 22:07,515.01
+P00153,Valeria Gonzalez Perez,2000-08-26,F,Bucerías,Nuevo Vallarta,2026-09-27 14:52,622.23
+P00154,Juan Flores Martinez,2004-07-20,M,Nuevo Vallarta,Tepic,2026-09-05 19:33,608.04
+P00155,Alejandra Sanchez Perez,1988-04-22,M,Puerto Vallarta,Nuevo Vallarta,2026-09-17 10:53,537.53
+P00156,Jose Gaxiola Sanchez,1964-07-26,M,Zapopan,Tepic,2026-09-19 04:05,849.06
+P00157,Valeria Flores Gonzalez,1968-11-08,M,Guadalajara,Nuevo Vallarta,2026-09-05 16:30,701.88
+P00158,Diego Martinez Perez,1984-01-23,F,Nuevo Vallarta,Bucerías,2026-09-17 00:03,870.86
+P00159,Elena Hernandez Gonzalez,1967-01-19,M,Bucerías,Guadalajara,2026-09-14 23:06,442.84
+P00160,Laura Ramirez Gonzalez,1967-10-26,F,Tepic,Puerto Vallarta,2026-09-06 06:05,694.46
+P00161,Carlos Torres Gaxiola,2007-03-11,F,Tepic,Bucerías,2026-09-28 00:38,367.37
+P00162,Laura Garcia Rodriguez,1969-09-30,F,Zapopan,Tepic,2026-09-17 11:55,391.75
+P00163,Valeria Ramirez Lopez,1985-08-07,F,Bucerías,Guadalajara,2026-09-05 10:54,622.19
+P00164,Valeria Gonzalez Torres,2000-07-28,M,Puerto Vallarta,Tepic,2026-09-16 03:05,880.01
+P00165,Diego Martinez Hernandez,1990-02-25,F,Puerto Vallarta,Zapopan,2026-09-03 09:58,641.4
+P00166,Ana Ramirez Martinez,1983-06-28,F,Tepic,Nuevo Vallarta,2026-09-14 06:15,416.53
+P00167,Jorge Gaxiola Hernandez,1963-02-02,M,Bucerías,Nuevo Vallarta,2026-09-24 14:58,587.16
+P00168,Ana Hernandez Lopez,1969-05-03,F,Nuevo Vallarta,Guadalajara,2026-09-01 08:57,523.67
+P00169,Valeria Perez Rodriguez,1968-10-15,F,Guadalajara,Puerto Vallarta,2026-09-25 03:29,669.55
+P00170,Alejandra Gaxiola Gonzalez,1964-11-26,F,Puerto Vallarta,Bucerías,2026-09-28 02:57,867.06
+P00171,Sofia Martinez Gonzalez,1999-03-07,F,Guadalajara,Nuevo Vallarta,2026-09-01 21:50,694.04
+P00172,Maria Perez Garcia,1982-02-06,M,Bucerías,Tepic,2026-09-15 01:18,830.79
+P00173,Maria Perez Martinez,1976-07-22,F,Nuevo Vallarta,Tepic,2026-09-18 13:35,703.32
+P00174,Alejandra Hernandez Flores,1983-02-07,M,Nuevo Vallarta,Guadalajara,2026-09-20 05:06,549.84
+P00175,Diego Martinez Ramirez,1994-09-13,M,Puerto Vallarta,Guadalajara,2026-09-25 18:45,893.55
+P00176,Ana Martinez Rodriguez,1977-06-02,M,Zapopan,Tepic,2026-09-08 04:04,454.1
+P00177,Juan Gaxiola Sanchez,1991-07-28,F,Puerto Vallarta,Guadalajara,2026-09-09 14:23,758.68
+P00178,Alejandra Gaxiola Gonzalez,1970-04-10,F,Nuevo Vallarta,Bucerías,2026-09-16 16:33,390.97
+P00179,Elena Garcia Gonzalez,1994-07-10,M,Tepic,Zapopan,2026-09-14 08:01,536.24
+P00180,Laura Hernandez Martinez,2003-11-14,M,Tepic,Guadalajara,2026-09-03 18:16,719.01
+P00181,Elena Ramirez Flores,1962-10-16,F,Nuevo Vallarta,Tepic,2026-09-23 11:05,895.43
+P00182,Elena Sanchez Ramirez,1970-04-07,M,Nuevo Vallarta,Puerto Vallarta,2026-09-16 14:36,620.31
+P00183,Diego Rodriguez Garcia,1976-11-09,F,Zapopan,Guadalajara,2026-09-25 11:50,944.59
+P00184,Laura Gonzalez Hernandez,1986-05-13,F,Nuevo Vallarta,Bucerías,2026-09-08 16:57,814.68
+P00185,Juan Gaxiola Gaxiola,1982-10-09,M,Bucerías,Nuevo Vallarta,2026-09-03 13:00,547.81
+P00186,Luis Flores Gaxiola,2001-01-05,M,Nuevo Vallarta,Tepic,2026-09-14 19:03,550.02
+P00187,Luis Gaxiola Flores,2005-01-21,F,Nuevo Vallarta,Puerto Vallarta,2026-09-17 23:34,427.37
+P00188,Jorge Perez Gaxiola,1982-05-09,M,Bucerías,Guadalajara,2026-09-16 00:41,752.07
+P00189,Diego Gaxiola Perez,1994-08-08,F,Bucerías,Nuevo Vallarta,2026-09-05 12:52,360.94
+P00190,Laura Sanchez Lopez,1975-06-01,M,Zapopan,Puerto Vallarta,2026-09-11 09:33,442.97
+P00191,Juan Ramirez Flores,1995-10-31,M,Zapopan,Guadalajara,2026-09-25 15:30,747.16
+P00192,Miguel Rodriguez Rodriguez,1972-04-21,M,Nuevo Vallarta,Puerto Vallarta,2026-09-29 23:50,782.71
+P00193,Diego Flores Lopez,1990-03-24,F,Guadalajara,Nuevo Vallarta,2026-09-18 16:26,801.43
+P00194,Ana Hernandez Sanchez,1973-03-15,F,Tepic,Puerto Vallarta,2026-09-26 22:10,756.98
+P00195,Juan Hernandez Perez,1994-03-22,F,Nuevo Vallarta,Tepic,2026-09-23 09:53,929.76
+P00196,Alejandra Hernandez Garcia,2003-08-19,F,Puerto Vallarta,Bucerías,2026-09-07 17:14,874.47
+P00197,Alejandra Martinez Hernandez,1965-09-15,M,Nuevo Vallarta,Guadalajara,2026-09-26 01:04,513.67
+P00198,Maria Lopez Sanchez,1983-10-15,M,Nuevo Vallarta,Puerto Vallarta,2026-09-22 05:41,598.94
+P00199,Ana Perez Martinez,1985-07-06,M,Tepic,Bucerías,2026-09-19 03:41,366.91
+P00200,Jose Garcia Hernandez,1992-02-24,M,Guadalajara,Tepic,2026-09-08 02:09,805.3
+P00201,Maria Garcia Hernandez,1974-09-04,M,Tepic,Nuevo Vallarta,2026-09-01 06:07,679.28
+P00202,Miguel Martinez Hernandez,1976-03-03,F,Bucerías,Nuevo Vallarta,2026-09-26 14:53,423.11
+P00203,Maria Martinez Sanchez,2000-08-10,M,Puerto Vallarta,Nuevo Vallarta,2026-09-23 04:34,729.17
+P00204,Luis Perez Garcia,2001-11-02,F,Nuevo Vallarta,Puerto Vallarta,2026-09-07 23:16,494.34
+P00205,Jorge Gonzalez Martinez,1995-10-19,M,Tepic,Puerto Vallarta,2026-09-05 03:44,584.27
+P00206,Laura Hernandez Flores,1961-02-07,F,Tepic,Guadalajara,2026-09-19 18:44,823.11
+P00207,Juan Torres Flores,1982-08-17,M,Zapopan,Puerto Vallarta,2026-09-06 00:46,376.6
+P00208,Alejandra Gaxiola Sanchez,2007-04-27,F,Nuevo Vallarta,Zapopan,2026-09-09 11:59,729.04
+P00209,Carlos Hernandez Lopez,1962-12-24,M,Puerto Vallarta,Guadalajara,2026-09-23 05:14,881.47
+P00210,Miguel Ramirez Sanchez,1977-03-28,M,Zapopan,Tepic,2026-09-26 00:27,801.97
+P00211,Alejandra Garcia Gaxiola,1982-08-03,F,Puerto Vallarta,Tepic,2026-09-18 07:54,424.69
+P00212,Valeria Sanchez Perez,1983-01-26,M,Zapopan,Nuevo Vallarta,2026-09-20 10:03,647.72
+P00213,Luis Martinez Flores,1988-11-19,M,Tepic,Zapopan,2026-09-26 05:00,608.36
+P00214,Laura Martinez Martinez,1982-04-25,F,Puerto Vallarta,Bucerías,2026-09-15 06:15,533.9
+P00215,Valeria Sanchez Gonzalez,1990-06-05,M,Nuevo Vallarta,Tepic,2026-09-09 02:09,786.09
+P00216,Luis Gaxiola Garcia,1965-02-08,F,Zapopan,Bucerías,2026-09-22 02:44,567.99
+P00217,Jose Torres Gaxiola,1989-10-25,M,Bucerías,Puerto Vallarta,2026-09-02 12:16,425.74
+P00218,Miguel Torres Garcia,2001-03-05,M,Puerto Vallarta,Tepic,2026-09-18 13:56,757.44
+P00219,Juan Martinez Torres,1969-05-15,F,Zapopan,Tepic,2026-09-22 13:13,588.82
+P00220,Maria Garcia Flores,1972-08-29,F,Bucerías,Zapopan,2026-09-13 02:49,660.65
+P00221,Juan Hernandez Flores,1990-05-15,M,Nuevo Vallarta,Guadalajara,2026-09-13 16:59,947.82
+P00222,Maria Rodriguez Martinez,1990-10-05,M,Zapopan,Nuevo Vallarta,2026-09-10 17:13,889.21
+P00223,Diego Gonzalez Flores,1964-06-02,F,Tepic,Guadalajara,2026-09-16 12:20,884.8
+P00224,Jorge Lopez Martinez,1973-09-04,M,Puerto Vallarta,Zapopan,2026-09-18 13:10,492.04
+P00225,Jorge Torres Gonzalez,1991-10-22,M,Tepic,Guadalajara,2026-09-18 12:28,717.17
+P00226,Miguel Flores Flores,1992-07-28,F,Guadalajara,Puerto Vallarta,2026-09-16 00:20,811.5
+P00227,Laura Gaxiola Martinez,1990-08-15,F,Nuevo Vallarta,Guadalajara,2026-09-07 02:00,758.07
+P00228,Diego Torres Rodriguez,1968-10-12,F,Zapopan,Puerto Vallarta,2026-09-27 18:18,651.72
+P00229,Jose Hernandez Rodriguez,1971-01-08,F,Guadalajara,Puerto Vallarta,2026-09-26 03:37,910.84
+P00230,Luis Martinez Hernandez,1973-05-11,F,Puerto Vallarta,Tepic,2026-09-26 04:33,425.1
+P00231,Maria Ramirez Gaxiola,1971-06-23,M,Zapopan,Bucerías,2026-09-26 21:32,452.72
+P00232,Alejandra Torres Garcia,1961-12-06,M,Nuevo Vallarta,Bucerías,2026-09-17 09:21,377.28
+P00233,Diego Lopez Torres,1988-05-07,M,Bucerías,Nuevo Vallarta,2026-09-13 20:20,648.82
+P00234,Diego Hernandez Sanchez,1976-08-30,F,Bucerías,Nuevo Vallarta,2026-09-15 01:29,528.46
+P00235,Sofia Perez Sanchez,1991-08-09,M,Guadalajara,Puerto Vallarta,2026-09-08 16:10,554.12
+P00236,Valeria Gonzalez Perez,1968-11-24,F,Puerto Vallarta,Tepic,2026-09-16 12:01,658.99
+P00237,Sofia Martinez Hernandez,1990-08-05,M,Guadalajara,Tepic,2026-09-12 17:38,434.53
+P00238,Alejandra Torres Perez,1976-11-22,M,Guadalajara,Tepic,2026-09-19 15:34,838.09
+P00239,Juan Rodriguez Sanchez,1995-01-10,F,Nuevo Vallarta,Zapopan,2026-09-10 05:10,649.26
+P00240,Maria Perez Ramirez,1991-02-11,M,Zapopan,Nuevo Vallarta,2026-09-02 03:00,479.09
+P00241,Luis Sanchez Torres,2004-07-09,F,Zapopan,Guadalajara,2026-09-03 10:53,521.45
+P00242,Jose Hernandez Flores,1984-11-21,F,Guadalajara,Puerto Vallarta,2026-09-21 22:04,569.56
+P00243,Jorge Lopez Gonzalez,1997-08-24,F,Tepic,Guadalajara,2026-09-28 16:25,394.12
+P00244,Luis Torres Gaxiola,2001-07-31,M,Nuevo Vallarta,Tepic,2026-09-27 16:37,427.2
+P00245,Juan Gonzalez Ramirez,1984-11-17,M,Guadalajara,Nuevo Vallarta,2026-09-19 02:48,469.43
+P00246,Carlos Garcia Garcia,1969-04-29,F,Nuevo Vallarta,Tepic,2026-09-25 06:37,832.38
+P00247,Elena Ramirez Rodriguez,1982-04-26,F,Nuevo Vallarta,Tepic,2026-09-08 05:31,447.5
+P00248,Laura Ramirez Ramirez,1996-03-23,F,Nuevo Vallarta,Zapopan,2026-09-29 19:44,775.24
+P00249,Laura Gonzalez Gaxiola,1967-06-17,F,Zapopan,Nuevo Vallarta,2026-09-01 19:23,700.22
+P00250,Sofia Hernandez Gaxiola,1999-05-14,M,Bucerías,Guadalajara,2026-09-29 23:27,782.84
+P00251,Jorge Gaxiola Flores,2002-03-04,F,Nuevo Vallarta,Tepic,2026-09-09 06:39,438.67
+P00252,Elena Flores Martinez,1972-12-24,M,Bucerías,Puerto Vallarta,2026-09-02 12:46,614.62
+P00253,Valeria Lopez Perez,1994-02-23,F,Tepic,Puerto Vallarta,2026-09-21 01:08,873.69
+P00254,Jorge Lopez Ramirez,1982-02-13,F,Bucerías,Guadalajara,2026-09-07 16:52,665.29
+P00255,Jorge Gonzalez Ramirez,1984-02-09,F,Zapopan,Puerto Vallarta,2026-09-23 07:32,716.05
+P00256,Jorge Hernandez Lopez,1980-04-02,F,Puerto Vallarta,Zapopan,2026-09-14 13:03,772.94
+P00257,Sofia Gonzalez Ramirez,1978-08-10,F,Bucerías,Tepic,2026-09-16 09:22,423.12
+P00258,Miguel Gonzalez Rodriguez,1979-10-07,M,Bucerías,Nuevo Vallarta,2026-09-19 10:22,522.58
+P00259,Sofia Gaxiola Hernandez,1992-08-07,M,Bucerías,Guadalajara,2026-09-17 19:32,471.24
+P00260,Valeria Hernandez Rodriguez,1967-06-07,M,Nuevo Vallarta,Zapopan,2026-09-28 06:47,495.47
+P00261,Diego Lopez Garcia,1966-10-26,F,Bucerías,Nuevo Vallarta,2026-09-11 22:55,548.18
+P00262,Carlos Ramirez Rodriguez,1987-09-09,F,Tepic,Guadalajara,2026-09-07 16:09,636.47
+P00263,Luis Gaxiola Garcia,1966-02-01,M,Puerto Vallarta,Tepic,2026-09-16 14:11,671.09
+P00264,Miguel Rodriguez Garcia,1987-01-06,F,Bucerías,Guadalajara,2026-09-09 11:57,461.79
+P00265,Carlos Hernandez Torres,2001-01-07,M,Bucerías,Zapopan,2026-09-02 19:39,907.07
+P00266,Diego Ramirez Ramirez,1993-08-11,M,Zapopan,Tepic,2026-09-23 01:21,860.64
+P00267,Juan Martinez Gonzalez,1971-01-21,F,Tepic,Zapopan,2026-09-10 08:38,738.97
+P00268,Valeria Gonzalez Hernandez,1998-08-21,M,Bucerías,Puerto Vallarta,2026-09-01 16:24,455.3
+P00269,Jorge Gonzalez Martinez,1987-04-11,M,Bucerías,Tepic,2026-09-21 18:18,460.87
+P00270,Ana Garcia Hernandez,1986-02-06,M,Puerto Vallarta,Nuevo Vallarta,2026-09-16 17:01,618.04
+P00271,Elena Flores Torres,1960-10-11,F,Zapopan,Tepic,2026-09-15 15:47,742.21
+P00272,Diego Martinez Sanchez,1980-11-16,M,Bucerías,Puerto Vallarta,2026-09-04 00:22,593.25
+P00273,Diego Hernandez Gonzalez,2001-10-28,M,Nuevo Vallarta,Zapopan,2026-09-06 16:47,481.48
+P00274,Sofia Flores Torres,1985-06-04,F,Puerto Vallarta,Nuevo Vallarta,2026-09-08 10:28,771.16
+P00275,Juan Lopez Gaxiola,2000-07-18,M,Tepic,Bucerías,2026-09-11 14:28,665.3
+P00276,Elena Martinez Garcia,1997-04-07,M,Nuevo Vallarta,Zapopan,2026-09-04 18:59,693.62
+P00277,Alejandra Ramirez Sanchez,1967-11-29,M,Puerto Vallarta,Zapopan,2026-09-16 22:17,780.15
+P00278,Sofia Garcia Sanchez,1968-12-23,F,Tepic,Guadalajara,2026-09-25 18:37,624.08
+P00279,Diego Hernandez Flores,1961-06-25,F,Guadalajara,Bucerías,2026-09-23 10:42,502.67
+P00280,Maria Garcia Perez,1983-06-12,M,Guadalajara,Zapopan,2026-09-29 01:46,674.7
+P00281,Carlos Hernandez Perez,1972-03-31,M,Guadalajara,Puerto Vallarta,2026-09-23 22:00,809.5
+P00282,Miguel Sanchez Perez,1985-07-24,M,Bucerías,Tepic,2026-09-19 04:16,759.64
+P00283,Diego Gonzalez Martinez,1972-02-22,F,Bucerías,Nuevo Vallarta,2026-09-07 10:56,667.31
+P00284,Juan Garcia Hernandez,1991-07-05,F,Bucerías,Puerto Vallarta,2026-09-01 04:02,669.16
+P00285,Laura Rodriguez Hernandez,1972-10-28,M,Puerto Vallarta,Zapopan,2026-09-23 08:40,369.33
+P00286,Ana Lopez Martinez,1966-11-12,M,Bucerías,Tepic,2026-09-01 18:13,617.86
+P00287,Valeria Garcia Perez,1989-11-14,M,Bucerías,Guadalajara,2026-09-12 21:08,673.86
+P00288,Luis Lopez Flores,1999-03-16,F,Guadalajara,Zapopan,2026-09-25 11:04,696.48
+P00289,Luis Rodriguez Gaxiola,1995-06-21,M,Bucerías,Zapopan,2026-09-12 12:00,598.14
+P00290,Elena Flores Rodriguez,2002-08-07,F,Zapopan,Guadalajara,2026-09-28 00:37,683.51
+P00291,Juan Ramirez Gonzalez,2007-05-20,F,Guadalajara,Tepic,2026-09-19 12:04,594.96
+P00292,Juan Ramirez Sanchez,1976-05-25,M,Zapopan,Nuevo Vallarta,2026-09-09 22:14,530.44
+P00293,Carlos Ramirez Perez,1988-05-05,M,Bucerías,Puerto Vallarta,2026-09-23 11:27,583.05
+P00294,Diego Martinez Sanchez,1985-04-02,M,Zapopan,Puerto Vallarta,2026-09-17 00:47,671.38
+P00295,Miguel Gaxiola Torres,2001-01-10,M,Puerto Vallarta,Guadalajara,2026-09-14 00:46,874.17
+P00296,Ana Sanchez Lopez,1982-08-28,F,Puerto Vallarta,Bucerías,2026-09-28 03:06,924.21
+P00297,Valeria Martinez Flores,1992-08-03,M,Guadalajara,Zapopan,2026-09-10 05:23,767.38
+P00298,Ana Ramirez Gonzalez,1979-04-06,F,Bucerías,Puerto Vallarta,2026-09-20 06:06,629.75
+P00299,Luis Gonzalez Ramirez,1993-11-02,F,Bucerías,Zapopan,2026-09-15 23:20,409.16
+P00300,Ana Gonzalez Gonzalez,1988-03-02,M,Bucerías,Tepic,2026-09-16 13:05,687.51
+P00301,Luis Ramirez Torres,1999-05-30,F,Puerto Vallarta,Zapopan,2026-09-01 18:53,527.12
+P00302,Miguel Torres Lopez,1993-12-23,F,Puerto Vallarta,Tepic,2026-09-12 03:59,504.4
+P00303,Jose Flores Gonzalez,1971-07-09,M,Tepic,Nuevo Vallarta,2026-09-23 08:54,782.19
+P00304,Diego Garcia Ramirez,1962-04-20,M,Tepic,Puerto Vallarta,2026-09-27 07:38,917.11
+P00305,Miguel Rodriguez Gaxiola,1975-10-01,M,Bucerías,Guadalajara,2026-09-01 07:26,774.3
+P00306,Sofia Gonzalez Garcia,2002-01-16,F,Guadalajara,Zapopan,2026-09-25 13:13,745.57
+P00307,Jorge Perez Garcia,1961-02-19,F,Guadalajara,Puerto Vallarta,2026-09-26 20:04,671.44
+P00308,Alejandra Flores Gaxiola,1989-04-19,M,Zapopan,Guadalajara,2026-09-25 09:07,414.21
+P00309,Ana Lopez Torres,1995-10-29,F,Guadalajara,Bucerías,2026-09-08 05:28,839.13
+P00310,Laura Perez Sanchez,1998-06-13,M,Zapopan,Nuevo Vallarta,2026-09-04 20:03,944.14
+P00311,Diego Gaxiola Garcia,1966-05-12,F,Puerto Vallarta,Tepic,2026-09-04 21:55,577.56
+P00312,Diego Garcia Flores,1971-08-30,M,Nuevo Vallarta,Tepic,2026-09-03 17:22,649.92
+P00313,Alejandra Martinez Ramirez,1962-11-23,M,Tepic,Zapopan,2026-09-28 11:16,476.85
+P00314,Luis Garcia Martinez,2006-07-29,F,Bucerías,Nuevo Vallarta,2026-09-24 01:59,889.59
+P00315,Alejandra Gonzalez Garcia,1974-02-04,M,Nuevo Vallarta,Guadalajara,2026-09-09 16:57,801.35
+P00316,Luis Rodriguez Torres,1976-05-12,F,Bucerías,Tepic,2026-09-04 17:38,756.22
+P00317,Juan Flores Rodriguez,2006-11-27,M,Nuevo Vallarta,Zapopan,2026-09-19 15:12,650.48
+P00318,Miguel Lopez Martinez,1983-03-06,F,Zapopan,Guadalajara,2026-09-05 17:48,931.35
+P00319,Juan Sanchez Sanchez,1975-07-11,F,Zapopan,Guadalajara,2026-09-14 06:26,681.82
+P00320,Diego Torres Gaxiola,1985-11-11,M,Tepic,Nuevo Vallarta,2026-09-10 00:24,813.3
+P00321,Maria Hernandez Rodriguez,1985-11-09,M,Zapopan,Puerto Vallarta,2026-09-04 13:38,793.79
+P00322,Maria Garcia Hernandez,1990-04-06,F,Zapopan,Tepic,2026-09-06 04:08,806.81
+P00323,Jose Perez Sanchez,1997-11-25,F,Guadalajara,Zapopan,2026-09-05 05:42,411.98
+P00324,Maria Torres Torres,1982-01-28,F,Guadalajara,Tepic,2026-09-27 21:42,357.4
+P00325,Valeria Ramirez Lopez,1998-12-03,M,Tepic,Nuevo Vallarta,2026-09-05 02:40,761.19
+P00326,Luis Hernandez Sanchez,1969-12-06,M,Puerto Vallarta,Zapopan,2026-09-14 01:18,450.32
+P00327,Sofia Martinez Gonzalez,1977-02-16,M,Zapopan,Nuevo Vallarta,2026-09-15 13:14,782.54
+P00328,Sofia Martinez Rodriguez,1980-09-24,M,Tepic,Bucerías,2026-09-10 11:49,919.29
+P00329,Juan Gonzalez Sanchez,1982-10-11,F,Zapopan,Bucerías,2026-09-19 10:36,839.29
+P00330,Luis Gonzalez Torres,2007-04-25,M,Bucerías,Nuevo Vallarta,2026-09-07 14:35,637.41
+P00331,Luis Flores Flores,2003-01-25,F,Puerto Vallarta,Nuevo Vallarta,2026-09-16 11:49,930.66
+P00332,Luis Perez Gonzalez,1967-10-01,M,Puerto Vallarta,Tepic,2026-09-19 06:08,705.34
+P00333,Carlos Flores Sanchez,1974-04-07,F,Nuevo Vallarta,Puerto Vallarta,2026-09-27 16:54,828.61
+P00334,Diego Sanchez Rodriguez,2003-02-05,F,Bucerías,Guadalajara,2026-09-20 20:41,495.21
+P00335,Juan Perez Martinez,1990-07-23,F,Bucerías,Puerto Vallarta,2026-09-21 12:58,699.35
+P00336,Jorge Garcia Gonzalez,2007-09-30,M,Nuevo Vallarta,Bucerías,2026-09-21 07:21,415.62
+P00337,Diego Torres Garcia,1998-04-29,F,Puerto Vallarta,Tepic,2026-09-09 01:47,930.09
+P00338,Carlos Martinez Hernandez,1975-02-08,M,Zapopan,Nuevo Vallarta,2026-09-06 03:26,617.47
+P00339,Valeria Ramirez Rodriguez,1983-06-23,M,Tepic,Nuevo Vallarta,2026-09-29 13:45,639.66
+P00340,Maria Flores Rodriguez,1983-09-14,F,Zapopan,Nuevo Vallarta,2026-09-05 04:01,555.84
+P00341,Laura Sanchez Martinez,1989-10-25,F,Puerto Vallarta,Bucerías,2026-09-24 10:38,541.35
+P00342,Carlos Gonzalez Gaxiola,1967-06-11,M,Zapopan,Guadalajara,2026-09-06 14:05,907.95
+P00343,Jose Ramirez Rodriguez,1982-07-10,F,Bucerías,Puerto Vallarta,2026-09-26 01:10,925.08
+P00344,Jose Gaxiola Gaxiola,1989-05-28,F,Puerto Vallarta,Nuevo Vallarta,2026-09-09 22:54,367.52
+P00345,Elena Perez Perez,1960-04-20,M,Nuevo Vallarta,Puerto Vallarta,2026-09-22 19:47,473.47
+P00346,Maria Ramirez Rodriguez,1984-11-21,F,Bucerías,Guadalajara,2026-09-29 00:39,468.24
+P00347,Jorge Gaxiola Gonzalez,2000-08-15,F,Guadalajara,Tepic,2026-09-24 18:17,716.79
+P00348,Laura Sanchez Torres,1971-09-28,F,Nuevo Vallarta,Guadalajara,2026-09-17 21:21,901.21
+P00349,Laura Martinez Lopez,1980-10-12,M,Nuevo Vallarta,Guadalajara,2026-09-07 12:03,459.83
+P00350,Miguel Perez Torres,1969-05-19,F,Bucerías,Puerto Vallarta,2026-09-25 19:09,603.82
+P00351,Jorge Rodriguez Sanchez,1979-08-28,M,Tepic,Bucerías,2026-09-09 09:49,462.26
+P00352,Alejandra Gonzalez Garcia,1992-12-23,M,Tepic,Bucerías,2026-09-03 14:27,467.08
+P00353,Diego Sanchez Perez,2006-08-05,F,Tepic,Bucerías,2026-09-25 12:52,599.38
+P00354,Maria Torres Garcia,1975-01-03,F,Tepic,Nuevo Vallarta,2026-09-09 02:51,369.62
+P00355,Jose Sanchez Torres,1993-09-15,M,Puerto Vallarta,Bucerías,2026-09-15 00:19,693.63
+P00356,Jorge Garcia Flores,1990-01-13,M,Zapopan,Bucerías,2026-09-18 19:25,943.87
+P00357,Alejandra Garcia Sanchez,1977-11-19,F,Guadalajara,Zapopan,2026-09-15 10:51,867.32
+P00358,Juan Lopez Lopez,2000-01-03,F,Guadalajara,Nuevo Vallarta,2026-09-06 16:45,866.63
+P00359,Elena Rodriguez Lopez,1974-01-30,M,Nuevo Vallarta,Tepic,2026-09-09 01:22,692.04
+P00360,Jorge Rodriguez Gonzalez,2007-11-29,F,Nuevo Vallarta,Zapopan,2026-09-29 23:23,523.6
+P00361,Jose Perez Garcia,1978-11-14,M,Zapopan,Bucerías,2026-09-05 14:56,770.86
+P00362,Valeria Gonzalez Lopez,2006-01-06,F,Puerto Vallarta,Zapopan,2026-09-08 02:23,643.68
+P00363,Miguel Sanchez Martinez,2003-02-12,M,Nuevo Vallarta,Zapopan,2026-09-21 02:36,591.71
+P00364,Sofia Sanchez Gonzalez,1999-08-08,M,Bucerías,Zapopan,2026-09-18 21:59,871.34
+P00365,Diego Gaxiola Flores,1984-05-17,M,Bucerías,Guadalajara,2026-09-23 06:07,827.41
+P00366,Alejandra Lopez Sanchez,1978-04-10,F,Tepic,Puerto Vallarta,2026-09-21 20:34,847.01
+P00367,Jose Torres Sanchez,1983-05-23,M,Zapopan,Bucerías,2026-09-29 01:20,377.57
+P00368,Maria Rodriguez Sanchez,1991-01-24,M,Bucerías,Tepic,2026-09-01 18:58,945.1
+P00369,Diego Hernandez Rodriguez,1978-08-24,M,Tepic,Puerto Vallarta,2026-09-07 09:41,742.75
+P00370,Diego Gaxiola Rodriguez,1963-07-11,F,Zapopan,Guadalajara,2026-09-19 01:13,725.36
+P00371,Diego Martinez Flores,1966-06-23,M,Bucerías,Puerto Vallarta,2026-09-21 20:05,478.05
+P00372,Ana Ramirez Gaxiola,1990-04-15,M,Guadalajara,Zapopan,2026-09-29 19:41,354.84
+P00373,Valeria Rodriguez Sanchez,1964-10-26,M,Zapopan,Guadalajara,2026-09-21 12:01,579.84
+P00374,Laura Gonzalez Hernandez,1969-05-01,F,Bucerías,Guadalajara,2026-09-06 00:14,814.08
+P00375,Jorge Torres Garcia,2001-07-13,M,Puerto Vallarta,Zapopan,2026-09-04 07:42,614.06
+P00376,Miguel Torres Gaxiola,1990-02-07,M,Bucerías,Puerto Vallarta,2026-09-08 08:21,402.01
+P00377,Elena Flores Perez,1983-12-03,F,Guadalajara,Zapopan,2026-09-06 23:29,538.7
+P00378,Diego Martinez Lopez,1997-08-28,F,Puerto Vallarta,Zapopan,2026-09-14 10:41,817.38
+P00379,Ana Ramirez Torres,1994-09-03,M,Bucerías,Guadalajara,2026-09-15 15:26,798.71
+P00380,Sofia Perez Martinez,1976-05-28,F,Zapopan,Guadalajara,2026-09-12 14:51,732.85
+P00381,Laura Gonzalez Rodriguez,1986-04-28,F,Guadalajara,Bucerías,2026-09-01 14:03,569.25
+P00382,Juan Martinez Garcia,1999-12-20,M,Bucerías,Puerto Vallarta,2026-09-23 20:46,358.28
+P00383,Juan Perez Ramirez,1979-06-30,F,Puerto Vallarta,Guadalajara,2026-09-03 22:27,604.15
+P00384,Jorge Torres Rodriguez,1978-11-18,M,Tepic,Guadalajara,2026-09-27 01:08,535.94
+P00385,Jorge Gonzalez Perez,1999-11-27,M,Nuevo Vallarta,Puerto Vallarta,2026-09-08 13:01,536.1
+P00386,Ana Martinez Perez,1967-11-22,F,Tepic,Puerto Vallarta,2026-09-03 19:27,717.38
+P00387,Maria Garcia Flores,1969-05-03,M,Guadalajara,Tepic,2026-09-09 12:38,448.3
+P00388,Juan Flores Hernandez,1971-05-12,F,Zapopan,Bucerías,2026-09-26 02:36,426.16
+P00389,Laura Perez Hernandez,1995-08-25,M,Zapopan,Guadalajara,2026-09-02 10:12,507.77
+P00390,Sofia Ramirez Gonzalez,1963-10-09,F,Nuevo Vallarta,Guadalajara,2026-09-25 02:03,865.62
+P00391,Luis Martinez Torres,2005-11-15,M,Puerto Vallarta,Tepic,2026-09-08 15:16,487.04
+P00392,Alejandra Garcia Lopez,1963-02-16,F,Nuevo Vallarta,Guadalajara,2026-09-03 03:18,568.39
+P00393,Jorge Flores Flores,2004-08-14,F,Puerto Vallarta,Zapopan,2026-09-02 17:12,484.71
+P00394,Luis Martinez Torres,1985-05-15,M,Puerto Vallarta,Nuevo Vallarta,2026-09-16 12:45,651.22
+P00395,Juan Ramirez Garcia,1987-04-14,M,Guadalajara,Zapopan,2026-09-11 20:01,876.19
+P00396,Maria Ramirez Sanchez,1960-07-17,F,Zapopan,Tepic,2026-09-16 21:19,470.4
+P00397,Sofia Gonzalez Torres,1993-07-28,M,Nuevo Vallarta,Zapopan,2026-09-12 18:37,789.48
+P00398,Carlos Perez Garcia,1975-11-09,F,Nuevo Vallarta,Puerto Vallarta,2026-09-08 07:25,731.57
+P00399,Carlos Gaxiola Perez,1980-12-04,M,Bucerías,Guadalajara,2026-09-17 06:19,473.12
+P00400,Carlos Rodriguez Flores,1979-01-16,M,Puerto Vallarta,Nuevo Vallarta,2026-09-24 21:15,376.34
+P00401,Valeria Gonzalez Sanchez,1965-10-11,M,Puerto Vallarta,Bucerías,2026-09-21 01:14,653.26
+P00402,Elena Torres Garcia,1989-08-07,M,Bucerías,Tepic,2026-09-04 15:11,492.06
+P00403,Valeria Flores Gonzalez,1981-08-23,F,Zapopan,Tepic,2026-09-20 01:49,513.17
+P00404,Juan Torres Martinez,1970-07-29,M,Guadalajara,Zapopan,2026-09-07 14:34,448.62
+P00405,Maria Ramirez Gonzalez,1974-02-16,F,Tepic,Zapopan,2026-09-20 17:37,534.98
+P00406,Jose Gaxiola Hernandez,2007-12-15,M,Zapopan,Guadalajara,2026-09-05 09:20,479.01
+P00407,Valeria Lopez Gonzalez,1986-12-18,M,Zapopan,Puerto Vallarta,2026-09-05 10:16,756.31
+P00408,Miguel Sanchez Ramirez,1997-06-08,M,Zapopan,Puerto Vallarta,2026-09-02 12:12,406.84
+P00409,Carlos Garcia Lopez,1968-11-22,M,Guadalajara,Zapopan,2026-09-06 21:30,844.2
+P00410,Elena Hernandez Martinez,1961-06-25,M,Zapopan,Guadalajara,2026-09-29 06:27,468.65
+P00411,Maria Gonzalez Martinez,1962-11-27,F,Bucerías,Tepic,2026-09-07 06:03,380.38
+P00412,Sofia Garcia Perez,2006-06-29,F,Nuevo Vallarta,Tepic,2026-09-20 04:12,453.68
+P00413,Luis Sanchez Rodriguez,1962-05-11,M,Puerto Vallarta,Zapopan,2026-09-14 08:22,738.37
+P00414,Sofia Garcia Martinez,1979-01-14,F,Tepic,Nuevo Vallarta,2026-09-27 17:35,432.34
+P00415,Diego Ramirez Garcia,1986-01-11,F,Puerto Vallarta,Bucerías,2026-09-13 02:16,637.81
+P00416,Jorge Gonzalez Perez,1978-05-27,M,Tepic,Zapopan,2026-09-28 11:01,365.64
+P00417,Juan Hernandez Garcia,1992-02-05,F,Nuevo Vallarta,Puerto Vallarta,2026-09-02 10:08,810.11
+P00418,Ana Gaxiola Lopez,1978-02-19,M,Puerto Vallarta,Zapopan,2026-09-05 20:39,808.43
+P00419,Laura Rodriguez Rodriguez,1976-02-05,F,Puerto Vallarta,Bucerías,2026-09-19 20:32,833.73
+P00420,Carlos Flores Flores,1983-12-07,M,Bucerías,Zapopan,2026-09-29 17:13,687.87
+P00421,Luis Rodriguez Sanchez,1962-08-01,M,Puerto Vallarta,Nuevo Vallarta,2026-09-27 07:37,383.7
+P00422,Jorge Sanchez Garcia,1982-07-29,M,Nuevo Vallarta,Puerto Vallarta,2026-09-01 23:13,833.87
+P00423,Carlos Garcia Rodriguez,1999-12-02,M,Zapopan,Puerto Vallarta,2026-09-16 17:00,814.62
+P00424,Laura Flores Gaxiola,1986-12-02,M,Nuevo Vallarta,Zapopan,2026-09-04 12:30,551.94
+P00425,Valeria Perez Gaxiola,1993-02-25,F,Zapopan,Puerto Vallarta,2026-09-08 15:30,454.52
+P00426,Ana Gaxiola Torres,1971-12-07,F,Nuevo Vallarta,Bucerías,2026-09-18 07:43,534.09
+P00427,Jose Flores Garcia,2007-10-09,F,Bucerías,Zapopan,2026-09-07 04:22,860.45
+P00428,Elena Gonzalez Torres,1975-01-12,M,Nuevo Vallarta,Guadalajara,2026-09-09 20:08,912.01
+P00429,Ana Gonzalez Gonzalez,1971-06-04,M,Puerto Vallarta,Tepic,2026-09-04 18:39,843.0
+P00430,Carlos Hernandez Lopez,1976-12-24,M,Bucerías,Zapopan,2026-09-22 16:21,560.29
+P00431,Miguel Sanchez Flores,1988-07-22,M,Guadalajara,Puerto Vallarta,2026-09-03 08:05,880.73
+P00432,Jorge Perez Martinez,1992-08-17,M,Tepic,Nuevo Vallarta,2026-09-18 01:12,447.59
+P00433,Carlos Gonzalez Hernandez,1967-02-15,M,Guadalajara,Puerto Vallarta,2026-09-15 07:35,555.08
+P00434,Jorge Martinez Gonzalez,2000-06-03,F,Tepic,Puerto Vallarta,2026-09-04 15:23,772.7
+P00435,Jose Garcia Martinez,1982-07-13,M,Tepic,Puerto Vallarta,2026-09-22 01:52,934.64
+P00436,Luis Gaxiola Hernandez,1980-03-27,M,Tepic,Bucerías,2026-09-27 05:17,407.55
+P00437,Alejandra Sanchez Rodriguez,1963-09-16,F,Tepic,Bucerías,2026-09-27 16:24,352.29
+P00438,Ana Martinez Garcia,1974-01-30,M,Guadalajara,Tepic,2026-09-24 07:37,732.91
+P00439,Luis Perez Sanchez,1993-04-13,F,Guadalajara,Nuevo Vallarta,2026-09-06 14:34,404.68
+P00440,Laura Perez Gonzalez,1972-09-11,F,Nuevo Vallarta,Tepic,2026-09-09 23:24,376.77
+P00441,Ana Hernandez Torres,1964-03-12,M,Tepic,Nuevo Vallarta,2026-09-13 18:53,801.34
+P00442,Diego Gonzalez Ramirez,1988-03-03,M,Bucerías,Guadalajara,2026-09-05 03:51,682.16
+P00443,Jorge Gaxiola Sanchez,1998-12-21,M,Tepic,Bucerías,2026-09-21 07:44,635.76
+P00444,Jorge Torres Ramirez,1998-11-21,M,Guadalajara,Nuevo Vallarta,2026-09-02 16:27,422.17
+P00445,Ana Lopez Rodriguez,1962-11-26,F,Tepic,Puerto Vallarta,2026-09-09 02:45,397.02
+P00446,Alejandra Gaxiola Rodriguez,2000-06-28,F,Bucerías,Tepic,2026-09-10 19:15,541.85
+P00447,Miguel Ramirez Perez,1997-07-26,F,Bucerías,Guadalajara,2026-09-05 05:23,863.97
+P00448,Juan Flores Torres,1999-12-26,F,Nuevo Vallarta,Tepic,2026-09-01 14:24,417.51
+P00449,Elena Torres Martinez,1967-03-10,M,Puerto Vallarta,Zapopan,2026-09-28 12:07,821.45
+P00450,Luis Perez Gaxiola,1993-01-16,F,Nuevo Vallarta,Zapopan,2026-09-20 22:43,372.48
+P00451,Elena Torres Gaxiola,2007-03-16,F,Zapopan,Nuevo Vallarta,2026-09-07 23:36,373.27
+P00452,Valeria Sanchez Hernandez,1985-05-06,M,Zapopan,Puerto Vallarta,2026-09-03 09:25,552.72
+P00453,Alejandra Sanchez Flores,2006-08-09,M,Zapopan,Tepic,2026-09-14 14:37,933.5
+P00454,Valeria Sanchez Gonzalez,1978-05-02,F,Puerto Vallarta,Zapopan,2026-09-15 14:05,712.99
+P00455,Ana Perez Flores,1992-12-19,F,Guadalajara,Zapopan,2026-09-22 10:38,842.61
+P00456,Luis Flores Ramirez,1987-06-14,M,Nuevo Vallarta,Puerto Vallarta,2026-09-04 04:26,818.31
+P00457,Jose Lopez Lopez,1963-12-03,M,Nuevo Vallarta,Bucerías,2026-09-02 09:43,369.84
+P00458,Luis Gonzalez Sanchez,1994-05-16,F,Guadalajara,Tepic,2026-09-10 15:58,731.25
+P00459,Laura Sanchez Torres,1990-05-10,M,Guadalajara,Puerto Vallarta,2026-09-12 17:52,926.31
+P00460,Laura Gonzalez Rodriguez,1977-08-08,M,Tepic,Bucerías,2026-09-27 18:21,521.04
+P00461,Alejandra Torres Lopez,1975-01-23,M,Tepic,Guadalajara,2026-09-08 21:48,756.62
+P00462,Carlos Gaxiola Garcia,1992-04-05,M,Zapopan,Nuevo Vallarta,2026-09-25 22:00,738.42
+P00463,Luis Torres Hernandez,2003-09-27,F,Nuevo Vallarta,Guadalajara,2026-09-11 20:42,604.28
+P00464,Luis Lopez Sanchez,1980-07-23,F,Tepic,Zapopan,2026-09-23 06:46,700.69
+P00465,Jorge Gaxiola Torres,2001-06-12,F,Guadalajara,Bucerías,2026-09-19 04:00,529.09
+P00466,Laura Hernandez Gaxiola,1982-02-15,F,Guadalajara,Nuevo Vallarta,2026-09-04 02:22,506.69
+P00467,Jose Ramirez Lopez,1963-11-12,F,Bucerías,Zapopan,2026-09-10 03:27,746.32
+P00468,Diego Sanchez Hernandez,1977-08-27,F,Bucerías,Puerto Vallarta,2026-09-02 05:39,592.76
+P00469,Valeria Torres Lopez,1983-05-09,M,Bucerías,Guadalajara,2026-09-29 07:16,761.79
+P00470,Jorge Hernandez Rodriguez,2004-10-01,M,Bucerías,Tepic,2026-09-18 09:40,526.27
+P00471,Valeria Ramirez Rodriguez,2006-04-03,F,Tepic,Puerto Vallarta,2026-09-13 13:21,742.66
+P00472,Valeria Hernandez Perez,1982-07-18,F,Puerto Vallarta,Tepic,2026-09-11 20:11,506.34
+P00473,Sofia Garcia Gaxiola,1999-09-17,M,Zapopan,Nuevo Vallarta,2026-09-06 17:13,633.33
+P00474,Alejandra Gaxiola Perez,1996-01-21,F,Puerto Vallarta,Bucerías,2026-09-06 19:35,597.86
+P00475,Laura Perez Torres,1991-02-19,M,Puerto Vallarta,Zapopan,2026-09-10 17:21,539.83
+P00476,Sofia Gonzalez Gaxiola,1972-01-12,F,Bucerías,Puerto Vallarta,2026-09-04 22:09,730.7
+P00477,Ana Rodriguez Torres,1970-10-12,F,Guadalajara,Nuevo Vallarta,2026-09-14 06:40,821.13
+P00478,Diego Perez Perez,1989-03-12,F,Guadalajara,Zapopan,2026-09-22 01:18,579.99
+P00479,Valeria Gonzalez Garcia,1981-12-04,M,Guadalajara,Bucerías,2026-09-10 16:20,360.75
+P00480,Valeria Gonzalez Hernandez,1968-10-09,M,Guadalajara,Zapopan,2026-09-11 23:37,580.13
+P00481,Maria Garcia Hernandez,1979-10-16,F,Nuevo Vallarta,Zapopan,2026-09-09 02:35,786.7
+P00482,Miguel Gaxiola Rodriguez,1983-04-28,F,Nuevo Vallarta,Bucerías,2026-09-17 09:36,565.55
+P00483,Carlos Lopez Lopez,1968-12-05,M,Puerto Vallarta,Zapopan,2026-09-20 13:59,790.45
+P00484,Maria Gonzalez Flores,2004-04-08,M,Nuevo Vallarta,Bucerías,2026-09-09 04:52,575.12
+P00485,Elena Garcia Torres,1963-04-07,M,Bucerías,Zapopan,2026-09-26 23:00,742.14
+P00486,Miguel Sanchez Perez,1968-05-29,F,Guadalajara,Puerto Vallarta,2026-09-06 14:54,634.64
+P00487,Luis Perez Gaxiola,1966-11-14,F,Puerto Vallarta,Zapopan,2026-09-01 10:50,723.68
+P00488,Alejandra Martinez Ramirez,2002-01-12,M,Bucerías,Puerto Vallarta,2026-09-21 07:58,519.62
+P00489,Elena Lopez Hernandez,1995-08-07,M,Guadalajara,Nuevo Vallarta,2026-09-10 15:26,564.75
+P00490,Carlos Ramirez Sanchez,1974-02-18,F,Tepic,Zapopan,2026-09-08 18:50,548.36
+P00491,Maria Torres Gaxiola,1993-08-16,M,Guadalajara,Puerto Vallarta,2026-09-05 07:41,919.67
+P00492,Luis Gaxiola Lopez,1991-01-30,F,Nuevo Vallarta,Guadalajara,2026-09-05 22:00,508.48
+P00493,Alejandra Garcia Hernandez,1984-07-06,F,Guadalajara,Puerto Vallarta,2026-09-09 11:32,605.6
+P00494,Carlos Rodriguez Gaxiola,2004-01-16,M,Guadalajara,Puerto Vallarta,2026-09-03 05:27,547.2
+P00495,Valeria Martinez Gonzalez,1983-04-28,M,Tepic,Bucerías,2026-09-14 00:36,418.3
+P00496,Alejandra Perez Flores,1992-07-17,F,Tepic,Nuevo Vallarta,2026-09-14 04:42,739.31
+P00497,Valeria Flores Garcia,1970-11-05,M,Puerto Vallarta,Guadalajara,2026-09-07 10:23,599.62
+P00498,Diego Sanchez Rodriguez,2001-08-07,F,Nuevo Vallarta,Tepic,2026-09-28 14:52,817.5
+P00499,Sofia Sanchez Martinez,1987-12-27,F,Nuevo Vallarta,Guadalajara,2026-09-07 08:13,377.58
+P00500,Valeria Gaxiola Ramirez,1999-03-29,M,Zapopan,Tepic,2026-09-01 14:24,936.74
