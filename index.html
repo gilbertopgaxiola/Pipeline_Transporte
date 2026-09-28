@@ -1,0 +1,1406 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Dashboard de Operaciones y Logística
+    </title>
+
+
+    <style>
+
+        /* =====================================================
+           CONFIGURACIÓN GENERAL
+        ===================================================== */
+
+        * {
+            box-sizing: border-box;
+        }
+
+
+        body {
+
+            margin: 0;
+
+            font-family:
+                Arial,
+                Helvetica,
+                sans-serif;
+
+            background: #f4f6f8;
+
+            color: #1f2937;
+        }
+
+
+        /* =====================================================
+           ENCABEZADO
+        ===================================================== */
+
+        .header {
+
+            background: #111827;
+
+            color: white;
+
+            padding: 25px 40px;
+        }
+
+
+        .header h1 {
+
+            margin: 0;
+
+            font-size: 28px;
+        }
+
+
+        .header p {
+
+            margin: 8px 0 0;
+
+            color: #cbd5e1;
+
+            font-size: 15px;
+        }
+
+
+        .header .badge {
+
+            display: inline-block;
+
+            margin-top: 12px;
+
+            padding: 5px 10px;
+
+            border-radius: 20px;
+
+            background: #374151;
+
+            color: #d1d5db;
+
+            font-size: 12px;
+        }
+
+
+        /* =====================================================
+           CONTENEDOR PRINCIPAL
+        ===================================================== */
+
+        .container {
+
+            max-width: 1400px;
+
+            margin: 30px auto;
+
+            padding: 0 25px;
+        }
+
+
+        /* =====================================================
+           KPIs
+        ===================================================== */
+
+        .kpi-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                repeat(4, 1fr);
+
+            gap: 20px;
+
+            margin-bottom: 30px;
+        }
+
+
+        .kpi-card {
+
+            background: white;
+
+            padding: 25px;
+
+            border-radius: 12px;
+
+            box-shadow:
+                0 2px 10px rgba(0, 0, 0, 0.08);
+        }
+
+
+        .kpi-title {
+
+            font-size: 14px;
+
+            color: #6b7280;
+
+            margin-bottom: 10px;
+        }
+
+
+        .kpi-value {
+
+            font-size: 27px;
+
+            font-weight: bold;
+
+            color: #111827;
+        }
+
+
+        /* =====================================================
+           FILTROS
+        ===================================================== */
+
+        .filters-card {
+
+            background: white;
+
+            padding: 25px;
+
+            border-radius: 12px;
+
+            box-shadow:
+                0 2px 10px rgba(0, 0, 0, 0.08);
+
+            margin-bottom: 25px;
+        }
+
+
+        .filters-card h2 {
+
+            margin-top: 0;
+
+            margin-bottom: 20px;
+
+            font-size: 20px;
+        }
+
+
+        .filters-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                1fr 1fr;
+
+            gap: 20px;
+        }
+
+
+        .filter-group {
+
+            display: flex;
+
+            flex-direction: column;
+
+            gap: 8px;
+        }
+
+
+        .filter-group label {
+
+            font-size: 14px;
+
+            font-weight: bold;
+
+            color: #4b5563;
+        }
+
+
+        .filter-group select {
+
+            width: 100%;
+
+            padding: 12px;
+
+            border: 1px solid #d1d5db;
+
+            border-radius: 8px;
+
+            background: white;
+
+            color: #111827;
+
+            font-size: 14px;
+
+            cursor: pointer;
+        }
+
+
+        .filter-group select:focus {
+
+            outline: none;
+
+            border-color: #6b7280;
+
+            box-shadow:
+                0 0 0 2px rgba(107, 114, 128, 0.15);
+        }
+
+
+        /* =====================================================
+           TARJETAS DE ANÁLISIS
+        ===================================================== */
+
+        .analysis-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                1fr 1fr;
+
+            gap: 25px;
+
+            margin-bottom: 30px;
+        }
+
+
+        .analysis-card {
+
+            background: white;
+
+            padding: 25px;
+
+            border-radius: 12px;
+
+            box-shadow:
+                0 2px 10px rgba(0, 0, 0, 0.08);
+        }
+
+
+        .analysis-label {
+
+            color: #6b7280;
+
+            font-size: 14px;
+
+            margin-bottom: 8px;
+        }
+
+
+        .analysis-value {
+
+            font-size: 24px;
+
+            font-weight: bold;
+
+            color: #111827;
+
+            margin-bottom: 20px;
+        }
+
+
+        .analysis-details {
+
+            border-top:
+                1px solid #e5e7eb;
+
+            padding-top: 12px;
+        }
+
+
+        .analysis-details p {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            margin: 11px 0;
+
+            color: #4b5563;
+
+            font-size: 14px;
+        }
+
+
+        .analysis-details strong {
+
+            color: #111827;
+        }
+
+
+        /* =====================================================
+           GRÁFICAS
+        ===================================================== */
+
+        .charts-grid {
+
+            display: grid;
+
+            grid-template-columns:
+                1fr 1fr;
+
+            gap: 25px;
+
+            margin-bottom: 30px;
+        }
+
+
+        .chart-card {
+
+            background: white;
+
+            padding: 20px;
+
+            border-radius: 12px;
+
+            box-shadow:
+                0 2px 10px rgba(0, 0, 0, 0.08);
+
+            overflow: hidden;
+        }
+
+
+        .chart-card h2 {
+
+            margin-top: 0;
+
+            font-size: 18px;
+
+            color: #111827;
+        }
+
+
+        /* =====================================================
+           TABLA
+        ===================================================== */
+
+        .table-card {
+
+            background: white;
+
+            padding: 25px;
+
+            border-radius: 12px;
+
+            box-shadow:
+                0 2px 10px rgba(0, 0, 0, 0.08);
+
+            overflow-x: auto;
+        }
+
+
+        .table-card h2 {
+
+            margin-top: 0;
+
+            font-size: 20px;
+        }
+
+
+        table {
+
+            width: 100%;
+
+            border-collapse: collapse;
+
+            margin-top: 15px;
+        }
+
+
+        th {
+
+            background: #111827;
+
+            color: white;
+
+            padding: 12px;
+
+            text-align: left;
+
+            font-size: 13px;
+
+            white-space: nowrap;
+        }
+
+
+        td {
+
+            padding: 11px;
+
+            border-bottom:
+                1px solid #e5e7eb;
+
+            font-size: 13px;
+
+            white-space: nowrap;
+        }
+
+
+        tr:hover {
+
+            background: #f9fafb;
+        }
+
+
+        /* =====================================================
+           FOOTER
+        ===================================================== */
+
+        .footer {
+
+            text-align: center;
+
+            color: #6b7280;
+
+            padding: 30px;
+
+            font-size: 13px;
+        }
+
+
+        /* =====================================================
+           RESPONSIVE
+        ===================================================== */
+
+        @media (max-width: 1100px) {
+
+            .kpi-grid {
+
+                grid-template-columns:
+                    repeat(2, 1fr);
+            }
+
+
+            .charts-grid {
+
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+
+        @media (max-width: 800px) {
+
+            .analysis-grid {
+
+                grid-template-columns: 1fr;
+            }
+
+
+            .filters-grid {
+
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+
+        @media (max-width: 600px) {
+
+            .kpi-grid {
+
+                grid-template-columns: 1fr;
+            }
+
+
+            .header {
+
+                padding: 20px;
+            }
+
+
+            .header h1 {
+
+                font-size: 22px;
+            }
+
+
+            .container {
+
+                padding: 0 15px;
+            }
+
+
+            .kpi-value {
+
+                font-size: 24px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         ENCABEZADO
+    ====================================================== -->
+
+    <div class="header">
+
+        <h1>
+            Dashboard de Operaciones y Logística
+        </h1>
+
+
+        <p>
+            Análisis de desempeño de transporte · Capa Gold
+        </p>
+
+
+        <span class="badge">
+            Datos simulados · Proyecto demostrativo
+        </span>
+
+    </div>
+
+
+
+    <div class="container">
+
+
+        <!-- =================================================
+             KPIs GENERALES
+        ================================================== -->
+
+        <div class="kpi-grid">
+
+
+            <div class="kpi-card">
+
+                <div class="kpi-title">
+                    Ingresos Totales
+                </div>
+
+
+                <div class="kpi-value">
+                    {{ total_ingresos }}
+                </div>
+
+            </div>
+
+
+
+            <div class="kpi-card">
+
+                <div class="kpi-title">
+                    Pasajeros Totales
+                </div>
+
+
+                <div class="kpi-value">
+                    {{ total_pasajeros }}
+                </div>
+
+            </div>
+
+
+
+            <div class="kpi-card">
+
+                <div class="kpi-title">
+                    Kilómetros Recorridos
+                </div>
+
+
+                <div class="kpi-value">
+                    {{ total_kms }}
+                </div>
+
+            </div>
+
+
+
+            <div class="kpi-card">
+
+                <div class="kpi-title">
+                    Eficiencia Global
+                </div>
+
+
+                <div class="kpi-value">
+                    {{ eficiencia_global }}
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             FILTROS
+        ================================================== -->
+
+        <div class="filters-card">
+
+
+            <h2>
+                Filtros de análisis
+            </h2>
+
+
+            <div class="filters-grid">
+
+
+                <!-- FILTRO DE TRAYECTO -->
+
+                <div class="filter-group">
+
+
+                    <label for="rutaSelect">
+
+                        Trayecto
+
+                    </label>
+
+
+                    <select id="rutaSelect">
+
+
+                        <option value="todas">
+
+                            Todas las rutas
+
+                        </option>
+
+
+                        {% for ruta in rutas %}
+
+                        <option value="{{ ruta.ruta }}">
+
+                            {{ ruta.ruta }}
+
+                        </option>
+
+                        {% endfor %}
+
+
+                    </select>
+
+
+                </div>
+
+
+
+                <!-- FILTRO DE UNIDAD -->
+
+                <div class="filter-group">
+
+
+                    <label for="unidadSelect">
+
+                        Unidad
+
+                    </label>
+
+
+                    <select id="unidadSelect">
+
+
+                        <option value="todas">
+
+                            Todas las unidades
+
+                        </option>
+
+
+                        {% for unidad in unidades %}
+
+                        <option value="{{ unidad.id_unidad }}">
+
+                            {{ unidad.id_unidad }}
+                            —
+                            {{ unidad.placa }}
+
+                        </option>
+
+                        {% endfor %}
+
+
+                    </select>
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             ANÁLISIS DINÁMICO
+        ================================================== -->
+
+        <div class="analysis-grid">
+
+
+            <!-- ANÁLISIS DE RUTA -->
+
+            <div class="analysis-card">
+
+
+                <div class="analysis-label">
+
+                    Trayecto seleccionado
+
+                </div>
+
+
+                <div
+                    class="analysis-value"
+                    id="rutaNombre"
+                >
+
+                    Todas las rutas
+
+                </div>
+
+
+                <div class="analysis-details">
+
+
+                    <p>
+
+                        <strong>
+                            Viajes realizados:
+                        </strong>
+
+                        <span id="rutaViajes">
+                            —
+                        </span>
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>
+                            Ingreso acumulado:
+                        </strong>
+
+                        <span id="rutaIngreso">
+                            —
+                        </span>
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>
+                            Combustible promedio:
+                        </strong>
+
+                        <span id="rutaCombustible">
+                            —
+                        </span>
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>
+                            Ingreso por km:
+                        </strong>
+
+                        <span id="rutaIngresoKm">
+                            —
+                        </span>
+
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ANÁLISIS DE UNIDAD -->
+
+            <div class="analysis-card">
+
+
+                <div class="analysis-label">
+
+                    Consumo promedio por unidad
+
+                </div>
+
+
+                <div
+                    class="analysis-value"
+                    id="unidadNombre"
+                >
+
+                    Todas las unidades
+
+                </div>
+
+
+                <div class="analysis-details">
+
+
+                    <p>
+
+                        <strong>
+                            Consumo promedio:
+                        </strong>
+
+                        <span id="unidadConsumo">
+                            —
+                        </span>
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>
+                            Consumo total:
+                        </strong>
+
+                        <span id="unidadConsumoTotal">
+                            —
+                        </span>
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>
+                            Viajes:
+                        </strong>
+
+                        <span id="unidadViajes">
+                            —
+                        </span>
+
+                    </p>
+
+
+                    <p>
+
+                        <strong>
+                            Eficiencia:
+                        </strong>
+
+                        <span id="unidadEficiencia">
+                            —
+                        </span>
+
+                    </p>
+
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             GRÁFICAS
+        ================================================== -->
+
+        <div class="charts-grid">
+
+
+            <!-- GRÁFICA DE RUTAS -->
+
+            <div class="chart-card">
+
+
+                <h2>
+                    Ingresos por Ruta
+                </h2>
+
+
+                {{ graph_rutas | safe }}
+
+
+            </div>
+
+
+
+            <!-- GRÁFICA DE UNIDADES -->
+
+            <div class="chart-card">
+
+
+                <h2>
+                    Eficiencia por Unidad
+                </h2>
+
+
+                {{ graph_unidades | safe }}
+
+
+            </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             TABLA TOP 10
+        ================================================== -->
+
+        <div class="table-card">
+
+
+            <h2>
+                Top 10 Viajes por Ocupación
+            </h2>
+
+
+            <table>
+
+
+                <thead>
+
+                    <tr>
+
+                        <th>
+                            ID Viaje
+                        </th>
+
+                        <th>
+                            Unidad
+                        </th>
+
+                        <th>
+                            Origen
+                        </th>
+
+                        <th>
+                            Destino
+                        </th>
+
+                        <th>
+                            Pasajeros
+                        </th>
+
+                        <th>
+                            Ingreso
+                        </th>
+
+                        <th>
+                            Km/L
+                        </th>
+
+                    </tr>
+
+                </thead>
+
+
+
+                <tbody>
+
+
+                    {% for viaje in top_viajes %}
+
+
+                    <tr>
+
+
+                        <td>
+
+                            {{ viaje.id_viaje }}
+
+                        </td>
+
+
+                        <td>
+
+                            {{ viaje.id_unidad }}
+
+                        </td>
+
+
+                        <td>
+
+                            {{ viaje.origen }}
+
+                        </td>
+
+
+                        <td>
+
+                            {{ viaje.destino }}
+
+                        </td>
+
+
+                        <td>
+
+                            {{ viaje.total_pasajeros }}
+
+                        </td>
+
+
+                        <td>
+
+                            ${{ "{:,.2f}".format(viaje.ingreso_total) }}
+
+                        </td>
+
+
+                        <td>
+
+                            {{ viaje.km_por_litro }}
+
+                        </td>
+
+
+                    </tr>
+
+
+                    {% endfor %}
+
+
+                </tbody>
+
+
+            </table>
+
+
+        </div>
+
+
+    </div>
+
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <div class="footer">
+
+        Proyecto de Data Engineering · Arquitectura Medallion
+
+    </div>
+
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script>
+
+
+        /*
+         * =====================================================
+         * DATOS PROVENIENTES DE FLASK
+         * =====================================================
+         */
+
+        const rutas = {{ rutas | tojson }};
+
+        const unidades = {{ unidades | tojson }};
+
+
+
+        /*
+         * =====================================================
+         * SELECTOR DE TRAYECTO
+         * =====================================================
+         */
+
+        document
+            .getElementById("rutaSelect")
+            .addEventListener(
+                "change",
+                function () {
+
+
+                    const seleccion = this.value;
+
+
+
+                    /*
+                     * Si seleccionamos "todas"
+                     */
+
+                    if (seleccion === "todas") {
+
+
+                        document
+                            .getElementById("rutaNombre")
+                            .textContent =
+                            "Todas las rutas";
+
+
+                        document
+                            .getElementById("rutaViajes")
+                            .textContent =
+                            "—";
+
+
+                        document
+                            .getElementById("rutaIngreso")
+                            .textContent =
+                            "—";
+
+
+                        document
+                            .getElementById("rutaCombustible")
+                            .textContent =
+                            "—";
+
+
+                        document
+                            .getElementById("rutaIngresoKm")
+                            .textContent =
+                            "—";
+
+
+                        return;
+
+                    }
+
+
+
+                    /*
+                     * Buscar la ruta seleccionada
+                     */
+
+                    const ruta =
+                        rutas.find(
+                            r =>
+                                r.ruta === seleccion
+                        );
+
+
+
+                    if (!ruta) {
+
+                        return;
+
+                    }
+
+
+
+                    /*
+                     * Mostrar información
+                     */
+
+                    document
+                        .getElementById("rutaNombre")
+                        .textContent =
+                        ruta.ruta;
+
+
+
+                    document
+                        .getElementById("rutaViajes")
+                        .textContent =
+                        ruta.viajes_realizados;
+
+
+
+                    document
+                        .getElementById("rutaIngreso")
+                        .textContent =
+                        "$" +
+                        Number(
+                            ruta.ingreso_total_acumulado
+                        ).toLocaleString(
+                            "en-US",
+                            {
+                                minimumFractionDigits: 2,
+                                maximumFractionDigits: 2
+                            }
+                        );
+
+
+
+                    document
+                        .getElementById("rutaCombustible")
+                        .textContent =
+                        Number(
+                            ruta.combustible_promedio
+                        ).toFixed(2)
+                        + " L";
+
+
+
+                    document
+                        .getElementById("rutaIngresoKm")
+                        .textContent =
+                        "$" +
+                        Number(
+                            ruta.ingreso_promedio_por_km_ruta
+                        ).toFixed(2);
+
+                }
+            );
+
+
+
+        /*
+         * =====================================================
+         * SELECTOR DE UNIDAD
+         * =====================================================
+         */
+
+        document
+            .getElementById("unidadSelect")
+            .addEventListener(
+                "change",
+                function () {
+
+
+                    const seleccion = this.value;
+
+
+
+                    /*
+                     * Si seleccionamos "todas"
+                     */
+
+                    if (seleccion === "todas") {
+
+
+                        document
+                            .getElementById("unidadNombre")
+                            .textContent =
+                            "Todas las unidades";
+
+
+                        document
+                            .getElementById("unidadConsumo")
+                            .textContent =
+                            "—";
+
+
+                        document
+                            .getElementById("unidadConsumoTotal")
+                            .textContent =
+                            "—";
+
+
+                        document
+                            .getElementById("unidadViajes")
+                            .textContent =
+                            "—";
+
+
+                        document
+                            .getElementById("unidadEficiencia")
+                            .textContent =
+                            "—";
+
+
+                        return;
+
+                    }
+
+
+
+                    /*
+                     * Buscar la unidad
+                     */
+
+                    const unidad =
+                        unidades.find(
+                            u =>
+                                String(u.id_unidad)
+                                === String(seleccion)
+                        );
+
+
+
+                    if (!unidad) {
+
+                        return;
+
+                    }
+
+
+
+                    /*
+                     * Mostrar unidad
+                     */
+
+                    document
+                        .getElementById("unidadNombre")
+                        .textContent =
+                        unidad.id_unidad
+                        + " — "
+                        + unidad.placa;
+
+
+
+                    /*
+                     * Consumo promedio
+                     */
+
+                    document
+                        .getElementById("unidadConsumo")
+                        .textContent =
+                        Number(
+                            unidad.consumo_promedio_por_viaje
+                        ).toFixed(2)
+                        + " L/viaje";
+
+
+
+                    /*
+                     * Consumo total
+                     */
+
+                    document
+                        .getElementById("unidadConsumoTotal")
+                        .textContent =
+                        Number(
+                            unidad.combustible_total
+                        ).toFixed(2)
+                        + " L";
+
+
+
+                    /*
+                     * Número de viajes
+                     */
+
+                    document
+                        .getElementById("unidadViajes")
+                        .textContent =
+                        unidad.total_viajes;
+
+
+
+                    /*
+                     * Eficiencia
+                     */
+
+                    document
+                        .getElementById("unidadEficiencia")
+                        .textContent =
+                        Number(
+                            unidad.eficiencia_promedio_km_l
+                        ).toFixed(2)
+                        + " km/L";
+
+                }
+            );
+
+
+    </script>
+
+
+</body>
+
+</html>
